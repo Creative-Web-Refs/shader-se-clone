@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-07-27T08:26:43.838Z",
+  "policy": "Metadata and findings only. The proprietary production bundles were inspected locally and are intentionally not redistributed.",
+  "runtime": {
+    "framework": "Next.js",
+    "renderSurfaceCount": 1,
+    "renderSurface": "canvas",
+    "desktopCanvasBackingSize": [1920, 1080],
+    "desktopCanvasCssSize": [1280, 720],
+    "scrollContainerHeight": 17452,
+    "font": "STIX Two Text",
+    "licenseSignal": "The loading screen states Copyright (c) Shader Development Studio AB, 2026. All Rights Reserved."
+  },
+  "sources": [
+    {
+      "url": "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "sha256": "45b6c612e64af4a598f0ac6929f6823a870465f0a20adb074d8953e0cb0b21c9",
+      "evidence": [
+        "Scene ids include hero, projects, office, about-us, golden-tie-reveal, golden-tie, and contact.",
+        "Transition modes are encoded as fade, direct, overlay, and below.",
+        "Per-scene effect configuration names noise, sepia, bloom, contrast, brightness, saturation, lens distortion, motion blur, vignette, and chromatic aberration."
+      ]
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "sha256": "1fb28e9ef282f5eb5c62c3619f3c5bca3dfd701c029a046db282ffd4875ad971",
+      "evidence": [
+        "The bundle contains Three.js WebGPU renderer code and TSL node construction.",
+        "The application renders a scene into an FBO before composing bloom, color, lens distortion, chromatic aberration, motion blur, UI textures, noise, and vignette.",
+        "Effect parameters are interpolated across loading, section, and sub-page transitions."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "label": "clone",
+  "url": "http://127.0.0.1:4173",
+  "capturedAt": "2026-07-27T08:54:47.176Z",
+  "maxPages": 15,
+  "maxDepth": 2,
+  "allowSubdomains": false,
+  "routes": [
+    {
+      "url": "http://127.0.0.1:4173",
+      "from": "",
+      "depth": 0,
+      "status": 200,
+      "title": "Circuit Office — WebGL Study",
+      "lang": "en",
+      "metaDescription": "A clean-room WebGL study of scroll-directed scenes and analog CRT post-processing.",
+      "h1": [
+        "Tomorrow’s interfaces.Yesterday’s confidence."
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Tomorrow’s interfaces.Yesterday’s confidence."
+        },
+        {
+          "tag": "h2",
+          "text": "Systems that moveat human speed."
+        },
+        {
+          "tag": "h3",
+          "text": "Northline Atlas"
+        },
+        {
+          "tag": "h3",
+          "text": "Afterlight"
+        },
+        {
+          "tag": "h3",
+          "text": "Common Signal"
+        },
+        {
+          "tag": "h2",
+          "text": "Small desk.Wide bandwidth."
+        },
+        {
+          "tag": "h2",
+          "text": "Playful enoughto be remembered.Precise enoughto be useful."
+        },
+        {
+          "tag": "h2",
+          "text": "Build the thingpeople point at."
+        },
+        {
+          "tag": "h2",
+          "text": "Let’s makethe signal clear."
+        }
+      ],
+      "counts": {
+        "links": 8,
+        "images": 0,
+        "canvas": 1,
+        "forms": 0,
+        "buttons": 0
+      },
+      "linkCount": 8,
+      "screenshot": "screenshots/127.0.0.1-588206d6.png",
+      "consoleErrors": []
+    }
+  ],
+  "skipped": []
+}

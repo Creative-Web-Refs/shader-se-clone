@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A clean-room WebGL study of scroll-directed scenes and analog CRT post-processing."
+    />
+    <meta name="theme-color" content="#0b0713" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>Circuit Office — WebGL Study</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="boot" aria-hidden="true">
+      <div class="boot__screen">
+        <div class="wordmark">
+          <span class="wordmark__mark"></span>
+          <span>CIRCUIT</span>
+        </div>
+        <p>Creative Systems Bureau<br />Website Version 1.00</p>
+        <div class="boot__track"><span></span></div>
+        <small>Independent clean-room WebGL study, 2026.</small>
+      </div>
+    </div>
+
+    <div class="stage" aria-hidden="true">
+      <canvas id="scene"></canvas>
+      <div class="crt-overlay"></div>
+    </div>
+
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Circuit Office, return home">
+        <span class="brand__mark"></span>
+        <span>Circuit Office</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="call-link" href="mailto:studio@example.com">Open a line ↗</a>
+    </header>
+
+    <main id="main">
+      <section class="chapter chapter--hero" id="home" data-scene="0">
+        <div class="chapter__eyebrow">Creative systems bureau · Est. 1986*</div>
+        <h1>Tomorrow’s interfaces.<br />Yesterday’s confidence.</h1>
+        <div class="chapter__bottom">
+          <p>Scroll to review our closed circuits</p>
+          <span aria-hidden="true">↓</span>
+        </div>
+        <p class="asterisk">*Backdated for credibility.</p>
+      </section>
+
+      <section class="chapter chapter--work" id="work" data-scene="1">
+        <div class="chapter__index">01 / SELECTED OPERATIONS</div>
+        <div class="chapter__copy">
+          <p class="kicker">Evidence over adjectives</p>
+          <h2>Systems that move<br />at human speed.</h2>
+        </div>
+        <div class="project-strip" aria-label="Selected fictional projects">
+          <article>
+            <span>01</span>
+            <h3>Northline Atlas</h3>
+            <p>Live logistics model</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Afterlight</h3>
+            <p>Spatial product story</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Common Signal</h3>
+            <p>Interactive data room</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="chapter chapter--office" data-scene="2">
+        <div class="chapter__index">02 / OPERATING MODEL</div>
+        <div class="office-copy">
+          <p>MEMORANDUM — TO WHOM IT MAY CONCERN</p>
+          <h2>Small desk.<br />Wide bandwidth.</h2>
+          <p>
+            We assemble compact teams around the problem: creative direction,
+            realtime graphics, motion, and engineering. Fewer hand-offs. Better
+            signal.
+          </p>
+        </div>
+        <div class="ticker" aria-hidden="true">
+          <span>CLARITY ▲ 18.4% · LATENCY ▼ 42.0% · CRAFT ▲ COMPOUNDING ·</span>
+          <span>CLARITY ▲ 18.4% · LATENCY ▼ 42.0% · CRAFT ▲ COMPOUNDING ·</span>
+        </div>
+      </section>
+
+      <section class="chapter chapter--about" id="about" data-scene="3">
+        <div class="chapter__index">03 / ABOUT THE BUREAU</div>
+        <div class="about-grid">
+          <h2>
+            Playful enough<br />to be remembered.<br />Precise enough<br />to be
+            useful.
+          </h2>
+          <div>
+            <p>
+              Circuit Office is a fictional studio created for this technical
+              study. The work is original; the visual language studies a real
+              reference site’s scroll pacing, scene grammar, and analog finish.
+            </p>
+            <p>
+              One render surface carries the story. DOM text remains semantic,
+              while the GPU handles space, light, transition, and imperfection.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="chapter chapter--tie" data-scene="4">
+        <div class="chapter__index">04 / EXECUTIVE ALIGNMENT</div>
+        <p class="kicker">A decisive competitive advantage</p>
+        <h2>Build the thing<br />people point at.</h2>
+        <p class="tie-note">
+          Real-time graphics · Product storytelling · Prototypes · Creative
+          engineering
+        </p>
+      </section>
+
+      <section class="chapter chapter--contact" id="contact" data-scene="5">
+        <div class="chapter__index">05 / OPEN CHANNEL</div>
+        <div class="contact-grid">
+          <div>
+            <p class="kicker">Ready when you are</p>
+            <h2>Let’s make<br />the signal clear.</h2>
+          </div>
+          <div class="contact-list">
+            <a href="mailto:studio@example.com">
+              <span>General enquiries</span>
+              studio@example.com
+            </a>
+            <a
+              href="https://github.com/Creative-Web-Refs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Source archive</span>
+              Creative-Web-Refs ↗
+            </a>
+          </div>
+        </div>
+        <footer>
+          <span>Circuit Office™</span>
+          <span>Independent study — no affiliation with Shader Sweden AB</span>
+        </footer>
+      </section>
+    </main>
+
+    <div class="progress" aria-hidden="true">
+      <span class="progress__section">SEC. 01</span>
+      <span class="progress__line"><i></i></span>
+      <span class="progress__value">000</span>
+    </div>
+
+    <p class="study-label">CLEAN-ROOM STUDY · SOURCE/ASSET INDEPENDENT</p>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

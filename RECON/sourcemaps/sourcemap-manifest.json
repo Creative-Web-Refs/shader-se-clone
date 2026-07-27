@@ -1,0 +1,107 @@
+{
+  "source": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/original-recon.json",
+  "url": "https://www.shader.se",
+  "allExternal": false,
+  "scriptCount": 14,
+  "mapCount": 14,
+  "results": [
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/0f9pmwk9~iqf..js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/0f9pmwk9~iqf..js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/0f9pmwk9-iqf..js-8ededb22b4.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/17.79-onzp9ko.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/17.79-onzp9ko.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/17.79-onzp9ko.js-c9ec042e8e.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/01rpcm9oxyz4o.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/01rpcm9oxyz4o.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/01rpcm9oxyz4o.js-ef134773df.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/turbopack-06237-s6b4.it.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/turbopack-06237-s6b4.it.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/turbopack-06237-s6b4.it.js-c007d07445.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/03r54qy_a1k2c.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/03r54qy_a1k2c.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/03r54qy_a1k2c.js-5e1b620f75.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/0_4n59_u4tn.y.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/0_4n59_u4tn.y.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/0_4n59_u4tn.y.js-a1a7435d85.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/0_2dh_hbsn4k2.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/0_2dh_hbsn4k2.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/0_2dh_hbsn4k2.js-e0227e55ca.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/003qcun9_z40b.js-ee707b0127.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/09d2g3rtnbzgs.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/09d2g3rtnbzgs.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/09d2g3rtnbzgs.js-23a9a755bd.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/0nr6lqdt2xw72.js-f90fde5d4e.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/12vmxu4i7-3qm.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/12vmxu4i7-3qm.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/12vmxu4i7-3qm.js-b9393c7778.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/0-4avss~~5x31.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/0-4avss~~5x31.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/0-4avss-5x31.js-80c67077f2.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/03-yq9q893hmn.js-a5dc8bb2b3.map",
+      "error": ""
+    },
+    {
+      "scriptUrl": "https://www.shader.se/_next/static/chunks/07k6izpr80.um.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": "ok",
+      "mapUrl": "https://www.shader.se/_next/static/chunks/07k6izpr80.um.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu.map",
+      "mapFile": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/sourcemaps/07k6izpr80.um.js-3052fc18f3.map",
+      "error": ""
+    }
+  ]
+}

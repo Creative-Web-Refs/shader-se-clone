@@ -1,0 +1,26 @@
+{
+  "original": {
+    "width": 1440,
+    "height": 900
+  },
+  "clone": {
+    "width": 1440,
+    "height": 7605
+  },
+  "comparedCanvas": {
+    "width": 1440,
+    "height": 7605
+  },
+  "threshold": 0.08,
+  "changedPixels": 10789184,
+  "totalPixels": 10951200,
+  "diffPixelRatio": 0.9852056395646139,
+  "meanAbsDiff": 0.6491293393754153,
+  "rmse": 0.6730366579262593,
+  "visualScore": 1,
+  "files": {
+    "original": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/screenshots/original-1440.png",
+    "clone": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/screenshots/clone-1440.png",
+    "diff": "/Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone/RECON/screenshots/visual-diff-1440.png"
+  }
+}

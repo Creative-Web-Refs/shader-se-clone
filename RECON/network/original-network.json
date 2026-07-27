@@ -1,0 +1,1395 @@
+{
+  "label": "original",
+  "url": "https://www.shader.se",
+  "capturedAt": "2026-07-27T08:28:33.476Z",
+  "requestCount": 67,
+  "responseCount": 55,
+  "fixtureCount": 1,
+  "requests": [
+    {
+      "url": "https://www.shader.se/",
+      "method": "GET",
+      "resourceType": "document",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/media/62c2ceb5e93c1826-s.p.0-v~mv8_r_vtm.woff2?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "font",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0l.t8ml2224no.css?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/07k6izpr80.um.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0f9pmwk9~iqf..js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/17.79-onzp9ko.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/01rpcm9oxyz4o.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/turbopack-06237-s6b4.it.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/03r54qy_a1k2c.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0_4n59_u4tn.y.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0_2dh_hbsn4k2.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/09d2g3rtnbzgs.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/12vmxu4i7-3qm.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0-4avss~~5x31.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://analytics.shader.build/script.js",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://analytics.shader.build/api/send",
+      "method": "POST",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": "{\"type\":\"event\",\"payload\":{\"website\":\"9f3f6f74-e5fd-4290-b41f-5a4a64d5ec22\",\"screen\":\"1440x900\",\"language\":\"en-US\",\"title\":\"Shader Development Studio\",\"hostname\":\"www.shader.se\",\"url\":\"https://www.shader.se/\",\"referrer\":\"\"}}"
+    },
+    {
+      "url": "https://www.shader.se/models/computer.glb",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/dirt.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/grunge.webp",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/boot_screen.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/boot_screen_mobile.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/smoke.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/thumb_fallback.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/icon.svg?icon.0yt3_39gikdcd.svg?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "method": "GET",
+      "resourceType": "other",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/models/deskbox.glb",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/83n4y2fZh2ztnRDEkkHBr2CxcTt9ofYGNL601sy9bpW00/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/LbdE02DF9Gx1iVtxU98nv6uOtEEmQkTSs00Uyqb6O0201Tw/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/byyZFSODgpXF2dwVzYl1sLBSfpwUw4mHYhWiqT3qRZ4/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/caSLneThURyYn402mCTXi6sgHLpL2F0201EcF01rI3ZwKk8/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/JFKPwSwJdrTK6zn1c013dCw5HTxkekifCD8cbWWmd7JQ/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/cUnrcyhPVk47A500005QHTfK00wUyr201vc2NEORq5ybaCE/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/hrfPaZr4FOpHh2iiUzTz01ppZApstkbjMH01vyZ5bDEg8/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/crXxuu5ds7W2UrGP1JE00V01xgtotSe02OOUojNBKjprKg/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/WR4ERwHNIF5rXY9l026yYwwacbpWgU7q3FrYxKYwqDrY/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/29xq00NijxLTofeMmyr1hvjJjStsZbMzzOBnP8JN24NM/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/Y7HzOsrmhjd7M00Ib6JYF861ME00I3ZqicLcr4V9vhoXU/w800-h600-fpreserve-t0",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/models/shredder.glb",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/models/tie.glb",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/rgba_noise.png",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/models/phones.glb",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/models/trophy2.glb",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/models/bank.glb",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.5/draco_wasm_wrapper.js",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.5/draco_decoder.wasm",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/3c578371-05d7-4599-92c2-0212e1e2c511",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/df606d6d-c1e2-48e9-b3ae-4c39a814c129",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/156e508c-8f23-4beb-b1a4-945e17835dcf",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/64bf5167-b9a7-401d-9a65-860d0097833f",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/0c119b08-3a6b-44a7-b032-178eb80b5e76",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/204ef525-c686-4684-af1a-4863eaf26041",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/b640db3f-e9e1-430d-9ba7-9d12ef39c394",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/fadcf086-1497-4c8a-9fd9-9e5054143fd1",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/595d0ccb-9f81-4ec4-9d24-2fd0a4ac9a57",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/c255bb10-142c-4367-8a59-75b8466ee80e",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/76307559-b99a-41c5-9183-6e212ce12838",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/5cd5caff-339f-4b8c-ab31-113e5137abe7",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/bad6d3c9-8a84-492b-8189-723d91895c15",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/937d1998-51e5-4c59-8e93-f29073f53e1a",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/050d1611-60fc-4800-8f29-c53a17406542",
+      "method": "GET",
+      "resourceType": "fetch",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "referer": ""
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://analytics.shader.build/api/send",
+      "method": "POST",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": "{\"type\":\"event\",\"payload\":{\"website\":\"9f3f6f74-e5fd-4290-b41f-5a4a64d5ec22\",\"screen\":\"1440x900\",\"language\":\"en-US\",\"title\":\"Shader Development Studio\",\"hostname\":\"www.shader.se\",\"url\":\"https://www.shader.se/\",\"referrer\":\"https://www.shader.se/\",\"name\":\"device_pixel_ratio\",\"data\":{\"dpr\":1}}}"
+    },
+    {
+      "url": "blob:https://www.shader.se/780086a4-f35c-4056-8cf4-45200070f1c5",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "accept": "*/*"
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/780086a4-f35c-4056-8cf4-45200070f1c5",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "accept": "*/*"
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/780086a4-f35c-4056-8cf4-45200070f1c5",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "accept": "*/*"
+      },
+      "postData": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/780086a4-f35c-4056-8cf4-45200070f1c5",
+      "method": "GET",
+      "resourceType": "script",
+      "headers": {
+        "accept": "*/*"
+      },
+      "postData": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/bank_wall.webp",
+      "method": "GET",
+      "resourceType": "image",
+      "headers": {
+        "origin": "https://www.shader.se",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.shader.se/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": ""
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://www.shader.se/",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "document",
+      "contentType": "text/html; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0l.t8ml2224no.css?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "contentType": "text/css; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/media/62c2ceb5e93c1826-s.p.0-v~mv8_r_vtm.woff2?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "font",
+      "contentType": "font/woff2",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0-4avss~~5x31.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0_2dh_hbsn4k2.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/09d2g3rtnbzgs.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/12vmxu4i7-3qm.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/turbopack-06237-s6b4.it.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/03r54qy_a1k2c.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/17.79-onzp9ko.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0f9pmwk9~iqf..js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/07k6izpr80.um.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/01rpcm9oxyz4o.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0_4n59_u4tn.y.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=utf-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://analytics.shader.build/script.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=UTF-8",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/models/computer.glb",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "model/gltf-binary",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/dirt.jpg",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/grunge.webp",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/icon.svg?icon.0yt3_39gikdcd.svg?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "other",
+      "contentType": "image/svg+xml",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/models/deskbox.glb",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "model/gltf-binary",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/3c578371-05d7-4599-92c2-0212e1e2c511",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/df606d6d-c1e2-48e9-b3ae-4c39a814c129",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/156e508c-8f23-4beb-b1a4-945e17835dcf",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/64bf5167-b9a7-401d-9a65-860d0097833f",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/models/shredder.glb",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "model/gltf-binary",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/models/phones.glb",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "model/gltf-binary",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/models/trophy2.glb",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "model/gltf-binary",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/0c119b08-3a6b-44a7-b032-178eb80b5e76",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/204ef525-c686-4684-af1a-4863eaf26041",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/b640db3f-e9e1-430d-9ba7-9d12ef39c394",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/fadcf086-1497-4c8a-9fd9-9e5054143fd1",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/models/bank.glb",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "model/gltf-binary",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/models/tie.glb",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "model/gltf-binary",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/595d0ccb-9f81-4ec4-9d24-2fd0a4ac9a57",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/c255bb10-142c-4367-8a59-75b8466ee80e",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/76307559-b99a-41c5-9183-6e212ce12838",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/5cd5caff-339f-4b8c-ab31-113e5137abe7",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/bad6d3c9-8a84-492b-8189-723d91895c15",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/937d1998-51e5-4c59-8e93-f29073f53e1a",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/050d1611-60fc-4800-8f29-c53a17406542",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "image/webp",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.5/draco_decoder.wasm",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "application/wasm",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.5/draco_wasm_wrapper.js",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "fetch",
+      "contentType": "text/javascript",
+      "fixture": "fixtures/draco-versioned-decoders-1.5.5-draco_wasm_wrapper.js-e3065b7f4a.txt",
+      "error": "",
+      "bytes": 58916
+    },
+    {
+      "url": "https://www.shader.se/textures/boot_screen_mobile.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/boot_screen.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/smoke.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/textures/thumb_fallback.png",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/png",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/83n4y2fZh2ztnRDEkkHBr2CxcTt9ofYGNL601sy9bpW00/w800-h600-fpreserve-t0",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/LbdE02DF9Gx1iVtxU98nv6uOtEEmQkTSs00Uyqb6O0201Tw/w800-h600-fpreserve-t0",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/780086a4-f35c-4056-8cf4-45200070f1c5",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/780086a4-f35c-4056-8cf4-45200070f1c5",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/780086a4-f35c-4056-8cf4-45200070f1c5",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "blob:https://www.shader.se/780086a4-f35c-4056-8cf4-45200070f1c5",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "script",
+      "contentType": "",
+      "fixture": "",
+      "error": ""
+    },
+    {
+      "url": "https://www.shader.se/api/mux-image/byyZFSODgpXF2dwVzYl1sLBSfpwUw4mHYhWiqT3qRZ4/w800-h600-fpreserve-t0",
+      "status": 200,
+      "ok": true,
+      "method": "GET",
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "fixture": "",
+      "error": ""
+    }
+  ]
+}

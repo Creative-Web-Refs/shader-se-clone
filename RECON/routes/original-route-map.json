@@ -1,0 +1,79 @@
+{
+  "label": "original",
+  "url": "https://www.shader.se",
+  "capturedAt": "2026-07-27T08:28:54.926Z",
+  "maxPages": 15,
+  "maxDepth": 2,
+  "allowSubdomains": false,
+  "routes": [
+    {
+      "url": "https://www.shader.se",
+      "from": "",
+      "depth": 0,
+      "status": 200,
+      "title": "Shader Development Studio",
+      "lang": "en",
+      "metaDescription": "Empowering Your Business with Next-Generation Interactive 3D and AI Solutions. Based in Sweden and Working with Brands and Agencies Worldwide.",
+      "h1": [
+        "A Creative Development Studio, Plugged into the Future"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "A Creative Development Studio, Plugged into the Future"
+        },
+        {
+          "tag": "h2",
+          "text": "Selected Work"
+        },
+        {
+          "tag": "h2",
+          "text": "Making Digital Storytelling More Playful, Powerful, and Alive"
+        },
+        {
+          "tag": "h2",
+          "text": "Contact"
+        }
+      ],
+      "counts": {
+        "links": 9,
+        "images": 0,
+        "canvas": 1,
+        "forms": 0,
+        "buttons": 9
+      },
+      "linkCount": 9,
+      "screenshot": "screenshots/www.shader.se-fb4ad948.png",
+      "consoleErrors": []
+    },
+    {
+      "url": "https://www.shader.se/accessibility-statement",
+      "from": "https://www.shader.se",
+      "depth": 1,
+      "status": 200,
+      "title": "Accessibility Statement | Shader Development Studio",
+      "lang": "en",
+      "metaDescription": "At Shader, we don't just dress for the job we want, complete with aggressive shoulder pads and power ties, we build for the future. You've probably noticed that our digital real estate isn't your standard, flat-file brochure. It is rendered entirely in glorious, state-of-the-art WebGPU and WebGL.",
+      "h1": [
+        "Statement On Accessibility: Pushing Pixels into the Future"
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Statement On Accessibility: Pushing Pixels into the Future"
+        }
+      ],
+      "counts": {
+        "links": 0,
+        "images": 0,
+        "canvas": 1,
+        "forms": 0,
+        "buttons": 1
+      },
+      "linkCount": 0,
+      "screenshot": "screenshots/www.shader.se-accessibility-statement-1ba00ea9.png",
+      "consoleErrors": []
+    }
+  ],
+  "skipped": []
+}

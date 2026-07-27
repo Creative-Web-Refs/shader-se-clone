@@ -1,0 +1,1080 @@
+{
+  "label": "clone",
+  "url": "http://127.0.0.1:4173/",
+  "capturedAt": "2026-07-27T08:55:36.593Z",
+  "initial": {
+    "url": "http://127.0.0.1:4173/",
+    "title": "Circuit Office — WebGL Study",
+    "activeElement": "body",
+    "scrollY": 0,
+    "bodyTextChars": 1724,
+    "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+    "counts": {
+      "dialogs": 0,
+      "popovers": 0,
+      "canvases": 1,
+      "videos": 0,
+      "buttons": 0,
+      "forms": 0
+    },
+    "htmlHash": "1921704220",
+    "htmlLength": 6345
+  },
+  "discovered": {
+    "interactive": [
+      {
+        "selector": "html > body:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#main",
+        "text": "Skip to content",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 12,
+          "y": -64,
+          "width": 176,
+          "height": 42
+        }
+      },
+      {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#home",
+        "text": "CIRCUIT OFFICE",
+        "ariaLabel": "Circuit Office, return home",
+        "safeClick": true,
+        "rect": {
+          "x": 24,
+          "y": 20,
+          "width": 560,
+          "height": 16
+        }
+      },
+      {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#work",
+        "text": "WORK",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 616,
+          "y": 22,
+          "width": 30,
+          "height": 12
+        }
+      },
+      {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#about",
+        "text": "ABOUT",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 690,
+          "y": 22,
+          "width": 38,
+          "height": 12
+        }
+      },
+      {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#contact",
+        "text": "CONTACT",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 771,
+          "y": 22,
+          "width": 53,
+          "height": 12
+        }
+      },
+      {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "mailto:studio@example.com",
+        "text": "OPEN A LINE ↗",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 1317,
+          "y": 22,
+          "width": 99,
+          "height": 13
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "mailto:studio@example.com",
+        "text": "GENERAL ENQUIRIES studio@example.com",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 884,
+          "y": 7098,
+          "width": 498,
+          "height": 70
+        }
+      },
+      {
+        "selector": "body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://github.com/Creative-Web-Refs",
+        "text": "SOURCE ARCHIVE Creative-Web-Refs ↗",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 884,
+          "y": 7168,
+          "width": 498,
+          "height": 77
+        }
+      }
+    ],
+    "canvases": [
+      {
+        "selector": "#scene",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        }
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "scroll",
+      "target": "middle",
+      "ratio": 0.5,
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 3353,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1303473365",
+        "htmlLength": 6357
+      },
+      "changed": true,
+      "screenshot": "screenshots/01-scroll-middle-b04a45f075.png"
+    },
+    {
+      "type": "scroll",
+      "target": "bottom",
+      "ratio": 1,
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 6705,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-1206148381",
+        "htmlLength": 6357
+      },
+      "changed": true,
+      "screenshot": "screenshots/02-scroll-bottom-7297e0cbea.png"
+    },
+    {
+      "type": "hover",
+      "target": "Skip to content",
+      "selector": "html > body:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#main",
+        "text": "Skip to content",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 12,
+          "y": -64,
+          "width": 176,
+          "height": 42
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "changed": false,
+      "screenshot": "",
+      "error": "locator.hover: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('html > body:nth-of-type(1) > a:nth-of-type(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#main\" class=\"skip-link\">Skip to content</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is visible and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "type": "hover",
+      "target": "CIRCUIT OFFICE",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#home",
+        "text": "CIRCUIT OFFICE",
+        "ariaLabel": "Circuit Office, return home",
+        "safeClick": true,
+        "rect": {
+          "x": 24,
+          "y": 20,
+          "width": 560,
+          "height": 16
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "changed": false,
+      "screenshot": "screenshots/04-hover-CIRCUIT-OFFICE-0c102713c1.png"
+    },
+    {
+      "type": "hover",
+      "target": "WORK",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#work",
+        "text": "WORK",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 616,
+          "y": 22,
+          "width": 30,
+          "height": 12
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "changed": false,
+      "screenshot": "screenshots/05-hover-WORK-a0ea0d6ded.png"
+    },
+    {
+      "type": "hover",
+      "target": "ABOUT",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#about",
+        "text": "ABOUT",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 690,
+          "y": 22,
+          "width": 38,
+          "height": 12
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "changed": false,
+      "screenshot": "screenshots/06-hover-ABOUT-f50e057b68.png"
+    },
+    {
+      "type": "hover",
+      "target": "CONTACT",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#contact",
+        "text": "CONTACT",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 771,
+          "y": 22,
+          "width": 53,
+          "height": 12
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "changed": false,
+      "screenshot": "screenshots/07-hover-CONTACT-2e5ccfffe7.png"
+    },
+    {
+      "type": "hover",
+      "target": "OPEN A LINE ↗",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(2)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "mailto:studio@example.com",
+        "text": "OPEN A LINE ↗",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 1317,
+          "y": 22,
+          "width": 99,
+          "height": 13
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "changed": false,
+      "screenshot": "screenshots/08-hover-OPEN-A-LINE-63fa7d377a.png"
+    },
+    {
+      "type": "hover",
+      "target": "GENERAL ENQUIRIES studio@example.com",
+      "selector": "body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "mailto:studio@example.com",
+        "text": "GENERAL ENQUIRIES studio@example.com",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 884,
+          "y": 7098,
+          "width": 498,
+          "height": 70
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 6683,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-638227454",
+        "htmlLength": 6357
+      },
+      "changed": true,
+      "screenshot": "screenshots/09-hover-GENERAL-ENQUIRIES-studio-example.com-b902bb7921.png"
+    },
+    {
+      "type": "hover",
+      "target": "SOURCE ARCHIVE Creative-Web-Refs ↗",
+      "selector": "body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "meta": {
+        "selector": "body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "https://github.com/Creative-Web-Refs",
+        "text": "SOURCE ARCHIVE Creative-Web-Refs ↗",
+        "ariaLabel": "",
+        "safeClick": false,
+        "rect": {
+          "x": 884,
+          "y": 7168,
+          "width": 498,
+          "height": 77
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 6705,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-1206148381",
+        "htmlLength": 6357
+      },
+      "changed": true,
+      "screenshot": "screenshots/10-hover-SOURCE-ARCHIVE-Creative-Web-Refs-e9dff9a3af.png"
+    },
+    {
+      "type": "click",
+      "target": "Skip to content",
+      "selector": "html > body:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#main",
+        "text": "Skip to content",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 12,
+          "y": -64,
+          "width": 176,
+          "height": 42
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "changed": false,
+      "screenshot": "",
+      "error": "locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('html > body:nth-of-type(1) > a:nth-of-type(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#main\" class=\"skip-link\">Skip to content</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    8 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "type": "click",
+      "target": "CIRCUIT OFFICE",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#home",
+        "text": "CIRCUIT OFFICE",
+        "ariaLabel": "Circuit Office, return home",
+        "safeClick": true,
+        "rect": {
+          "x": 24,
+          "y": 20,
+          "width": 560,
+          "height": 16
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/#home",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "changed": true,
+      "screenshot": "screenshots/12-click-CIRCUIT-OFFICE-1268aa0511.png"
+    },
+    {
+      "type": "click",
+      "target": "WORK",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#work",
+        "text": "WORK",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 616,
+          "y": 22,
+          "width": 30,
+          "height": 12
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/#work",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 1200,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-1809917755",
+        "htmlLength": 6357
+      },
+      "changed": true,
+      "screenshot": "screenshots/13-click-WORK-d817b74087.png"
+    },
+    {
+      "type": "click",
+      "target": "ABOUT",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#about",
+        "text": "ABOUT",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 690,
+          "y": 22,
+          "width": 38,
+          "height": 12
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/#about",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 3057,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1376124730",
+        "htmlLength": 6357
+      },
+      "changed": true,
+      "screenshot": "screenshots/14-click-ABOUT-fbc7ea9fac.png"
+    },
+    {
+      "type": "click",
+      "target": "CONTACT",
+      "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+      "meta": {
+        "selector": "html > body:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "tag": "a",
+        "type": "",
+        "role": "",
+        "href": "http://127.0.0.1:4173/#contact",
+        "text": "CONTACT",
+        "ariaLabel": "",
+        "safeClick": true,
+        "rect": {
+          "x": 771,
+          "y": 22,
+          "width": 53,
+          "height": 12
+        }
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/#contact",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 4425,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "1012214614",
+        "htmlLength": 6357
+      },
+      "changed": true,
+      "screenshot": "screenshots/15-click-CONTACT-ccc1a4f10b.png"
+    },
+    {
+      "type": "canvas-drag",
+      "target": "#scene",
+      "selector": "#scene",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "before": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "after": {
+        "url": "http://127.0.0.1:4173/",
+        "title": "Circuit Office — WebGL Study",
+        "activeElement": "body",
+        "scrollY": 0,
+        "bodyTextChars": 1724,
+        "bodyTextStart": "Skip to content CIRCUIT CREATIVE SYSTEMS BUREAU WEBSITE VERSION 1.00 INDEPENDENT CLEAN-ROOM WEBGL STUDY, 2026. CIRCUIT OFFICE WORK ABOUT CONTACT OPEN A LINE ↗ CREATIVE SYSTEMS BUREAU · EST. 1986* Tomorrow’s interfaces. Yesterday’s confidence. SCROLL TO REVIEW OUR CLOSED CIRCUITS ↓ *BACKDATED FOR CREDIBILITY. 01 / SELECTED OPERATIONS EVIDENCE OVER ADJECTIVES Systems that move at human speed. 01 Northline Atlas LIVE LOGISTICS MODEL 02 Afterlight SPATIAL PRODUCT STORY 03 Common Signal INTERACTIVE D",
+        "counts": {
+          "dialogs": 0,
+          "popovers": 0,
+          "canvases": 1,
+          "videos": 0,
+          "buttons": 0,
+          "forms": 0
+        },
+        "htmlHash": "-2094737728",
+        "htmlLength": 6357
+      },
+      "changed": false,
+      "screenshot": "screenshots/16-canvas-drag--scene-0826edc8e9.png"
+    }
+  ],
+  "network": [],
+  "consoleErrors": [],
+  "findings": [
+    "8 visible interactive candidates discovered",
+    "1 visible canvas targets discovered",
+    "8/16 actions changed DOM, URL, scroll, or visible overlay counts",
+    "Canvas drag evidence exists; inspect screenshots before simplifying WebGL/Canvas behavior."
+  ]
+}

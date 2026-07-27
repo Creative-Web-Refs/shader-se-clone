@@ -1,0 +1,1663 @@
+{
+  "label": "original",
+  "url": "https://www.shader.se",
+  "capturedAt": "2026-07-27T08:26:43.838Z",
+  "console": {
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "viewport": 1440
+      },
+      {
+        "type": "error",
+        "text": "Event",
+        "viewport": 1440
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "viewport": 390
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "text": "THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+        "viewport": 1440
+      },
+      {
+        "type": "warning",
+        "text": "THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+        "viewport": 768
+      },
+      {
+        "type": "warning",
+        "text": "THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+        "viewport": 390
+      }
+    ],
+    "pageErrors": [
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      },
+      {
+        "message": "Failed to fetch",
+        "viewport": 390
+      }
+    ]
+  },
+  "captures": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "screenshots/original-1440.png",
+      "signals": {
+        "href": "https://www.shader.se/",
+        "title": "Shader Development Studio",
+        "lang": "en",
+        "bodyTextChars": 3513,
+        "scrollHeight": 900,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "h1": [
+          "A Creative Development Studio, Plugged into the Future"
+        ],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "A Creative Development Studio, Plugged into the Future"
+          },
+          {
+            "tag": "h2",
+            "text": "Selected Work"
+          },
+          {
+            "tag": "h2",
+            "text": "Making Digital Storytelling More Playful, Powerful, and Alive"
+          },
+          {
+            "tag": "h2",
+            "text": "Contact"
+          }
+        ],
+        "metaDescription": "Empowering Your Business with Next-Generation Interactive 3D and AI Solutions. Based in Sweden and Working with Brands and Agencies Worldwide.",
+        "counts": {
+          "links": 9,
+          "images": 0,
+          "video": 0,
+          "canvas": 1,
+          "sections": 5,
+          "forms": 0,
+          "buttons": 9,
+          "inputs": 0,
+          "interactive": 19,
+          "scripts": 15,
+          "stylesheets": 1
+        },
+        "frameworks": {
+          "react": false,
+          "next": true,
+          "vue": false,
+          "nuxt": false,
+          "svelte": false,
+          "astro": false,
+          "three": false,
+          "gsap": false,
+          "lenis": false
+        },
+        "scripts": [
+          "https://www.shader.se/_next/static/chunks/0f9pmwk9~iqf..js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/17.79-onzp9ko.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/01rpcm9oxyz4o.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/turbopack-06237-s6b4.it.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/03r54qy_a1k2c.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0_4n59_u4tn.y.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0_2dh_hbsn4k2.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/09d2g3rtnbzgs.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/12vmxu4i7-3qm.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0-4avss~~5x31.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://analytics.shader.build/script.js",
+          "https://www.shader.se/_next/static/chunks/07k6izpr80.um.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu"
+        ],
+        "stylesheets": [
+          "https://www.shader.se/_next/static/chunks/0l.t8ml2224no.css?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu"
+        ],
+        "sections": [
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "Shader — HomeHomeSelected WorkAbout UsContactBook a call",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "A Creative Development Studio, Plugged into the FutureScroll to Inspect Our Closed Deals",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "Selected WorkBrowse our project carousel to explore our selected work.Project carouselPrevious projectView project: eHealth Arena 3D Showroom, developed in collaboration with Markus ReklambyråNext project",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "Making Digital Storytelling More Playful, Powerful, and AliveShader is a creative development studio specialized in building interactive 3D and AI solutions for the web. Serious about business, based in Sweden, and working with brands, agen",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "ContactContact us about your digital project idea or general enquires. Let's interface, call us today!General Enquirieshello@shader.seBook a callVisit usLaxholmstorget 3602 21 NorrköpingSwedenSocialLinkedInInstagramX (Twitter)New businessRe",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          }
+        ],
+        "cssVariables": [
+          [
+            "--font-stix",
+            "\"STIX Two Text\", \"STIX Two Text Fallback\""
+          ],
+          [
+            "--tw-border-spacing-x",
+            "0"
+          ],
+          [
+            "--tw-border-spacing-y",
+            "0"
+          ],
+          [
+            "--tw-translate-x",
+            "0"
+          ],
+          [
+            "--tw-translate-y",
+            "0"
+          ],
+          [
+            "--tw-rotate",
+            "0"
+          ],
+          [
+            "--tw-skew-x",
+            "0"
+          ],
+          [
+            "--tw-skew-y",
+            "0"
+          ],
+          [
+            "--tw-scale-x",
+            "1"
+          ],
+          [
+            "--tw-scale-y",
+            "1"
+          ],
+          [
+            "--tw-pan-x",
+            ""
+          ],
+          [
+            "--tw-pan-y",
+            ""
+          ],
+          [
+            "--tw-pinch-zoom",
+            ""
+          ],
+          [
+            "--tw-scroll-snap-strictness",
+            "proximity"
+          ],
+          [
+            "--tw-gradient-from-position",
+            ""
+          ],
+          [
+            "--tw-gradient-via-position",
+            ""
+          ],
+          [
+            "--tw-gradient-to-position",
+            ""
+          ],
+          [
+            "--tw-ordinal",
+            ""
+          ],
+          [
+            "--tw-slashed-zero",
+            ""
+          ],
+          [
+            "--tw-numeric-figure",
+            ""
+          ],
+          [
+            "--tw-numeric-spacing",
+            ""
+          ],
+          [
+            "--tw-numeric-fraction",
+            ""
+          ],
+          [
+            "--tw-ring-inset",
+            ""
+          ],
+          [
+            "--tw-ring-offset-width",
+            "0px"
+          ],
+          [
+            "--tw-ring-offset-color",
+            "#fff"
+          ],
+          [
+            "--tw-ring-color",
+            "#3b82f680"
+          ],
+          [
+            "--tw-ring-offset-shadow",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-ring-shadow",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-shadow",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-shadow-colored",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-blur",
+            ""
+          ],
+          [
+            "--tw-brightness",
+            ""
+          ],
+          [
+            "--tw-contrast",
+            ""
+          ],
+          [
+            "--tw-grayscale",
+            ""
+          ],
+          [
+            "--tw-hue-rotate",
+            ""
+          ],
+          [
+            "--tw-invert",
+            ""
+          ],
+          [
+            "--tw-saturate",
+            ""
+          ],
+          [
+            "--tw-sepia",
+            ""
+          ],
+          [
+            "--tw-drop-shadow",
+            ""
+          ],
+          [
+            "--tw-backdrop-blur",
+            ""
+          ],
+          [
+            "--tw-backdrop-brightness",
+            ""
+          ],
+          [
+            "--tw-backdrop-contrast",
+            ""
+          ],
+          [
+            "--tw-backdrop-grayscale",
+            ""
+          ],
+          [
+            "--tw-backdrop-hue-rotate",
+            ""
+          ],
+          [
+            "--tw-backdrop-invert",
+            ""
+          ],
+          [
+            "--tw-backdrop-opacity",
+            ""
+          ],
+          [
+            "--tw-backdrop-saturate",
+            ""
+          ],
+          [
+            "--tw-backdrop-sepia",
+            ""
+          ],
+          [
+            "--tw-contain-size",
+            ""
+          ],
+          [
+            "--tw-contain-layout",
+            ""
+          ],
+          [
+            "--tw-contain-paint",
+            ""
+          ],
+          [
+            "--tw-contain-style",
+            ""
+          ],
+          [
+            "--tw-content",
+            "\"\""
+          ],
+          [
+            "--vh",
+            "1svh"
+          ],
+          [
+            "--vw",
+            "1svw"
+          ],
+          [
+            "--page-height",
+            "3"
+          ],
+          [
+            "--page-width",
+            "1"
+          ],
+          [
+            "--tw-pan-y",
+            "pan-y"
+          ],
+          [
+            "--tw-space-y-reverse",
+            "0"
+          ],
+          [
+            "--tw-border-opacity",
+            "1"
+          ],
+          [
+            "--tw-bg-opacity",
+            "1"
+          ],
+          [
+            "--tw-bg-opacity",
+            "1"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ],
+          [
+            "--tw-shadow",
+            "0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a"
+          ],
+          [
+            "--tw-shadow-colored",
+            "0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color)"
+          ],
+          [
+            "--tw-ring-offset-shadow",
+            "var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)"
+          ],
+          [
+            "--tw-ring-shadow",
+            "var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)"
+          ],
+          [
+            "--tw-blur",
+            "blur(8px)"
+          ],
+          [
+            "--tw-grayscale",
+            "grayscale(100%)"
+          ],
+          [
+            "--tw-invert",
+            "invert(100%)"
+          ],
+          [
+            "--tw-backdrop-blur",
+            "blur(8px)"
+          ],
+          [
+            "--tw-backdrop-blur",
+            "blur(12px)"
+          ],
+          [
+            "--background",
+            "#fff"
+          ],
+          [
+            "--foreground",
+            "#fcf9f3"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ]
+        ],
+        "fonts": [
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text Fallback"
+        ],
+        "images": [],
+        "canvases": [
+          {
+            "width": 1440,
+            "height": 900,
+            "cssWidth": 1440,
+            "cssHeight": 900
+          }
+        ]
+      }
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "screenshot": "screenshots/original-768.png",
+      "signals": {
+        "href": "https://www.shader.se/",
+        "title": "Shader Development Studio",
+        "lang": "en",
+        "bodyTextChars": 3513,
+        "scrollHeight": 900,
+        "viewport": {
+          "width": 768,
+          "height": 900
+        },
+        "h1": [
+          "A Creative Development Studio, Plugged into the Future"
+        ],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "A Creative Development Studio, Plugged into the Future"
+          },
+          {
+            "tag": "h2",
+            "text": "Selected Work"
+          },
+          {
+            "tag": "h2",
+            "text": "Making Digital Storytelling More Playful, Powerful, and Alive"
+          },
+          {
+            "tag": "h2",
+            "text": "Contact"
+          }
+        ],
+        "metaDescription": "Empowering Your Business with Next-Generation Interactive 3D and AI Solutions. Based in Sweden and Working with Brands and Agencies Worldwide.",
+        "counts": {
+          "links": 9,
+          "images": 0,
+          "video": 0,
+          "canvas": 1,
+          "sections": 5,
+          "forms": 0,
+          "buttons": 9,
+          "inputs": 0,
+          "interactive": 19,
+          "scripts": 15,
+          "stylesheets": 1
+        },
+        "frameworks": {
+          "react": false,
+          "next": true,
+          "vue": false,
+          "nuxt": false,
+          "svelte": false,
+          "astro": false,
+          "three": false,
+          "gsap": false,
+          "lenis": false
+        },
+        "scripts": [
+          "https://www.shader.se/_next/static/chunks/0f9pmwk9~iqf..js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/17.79-onzp9ko.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/01rpcm9oxyz4o.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/turbopack-06237-s6b4.it.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/03r54qy_a1k2c.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0_4n59_u4tn.y.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0_2dh_hbsn4k2.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/09d2g3rtnbzgs.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/12vmxu4i7-3qm.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0-4avss~~5x31.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://analytics.shader.build/script.js",
+          "https://www.shader.se/_next/static/chunks/07k6izpr80.um.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu"
+        ],
+        "stylesheets": [
+          "https://www.shader.se/_next/static/chunks/0l.t8ml2224no.css?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu"
+        ],
+        "sections": [
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "Shader — HomeHomeSelected WorkAbout UsContactBook a call",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "A Creative Development Studio, Plugged into the FutureScroll to Inspect Our Closed Deals",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "Selected WorkBrowse our project carousel to explore our selected work.Project carouselPrevious projectView project: eHealth Arena 3D Showroom, developed in collaboration with Markus ReklambyråNext project",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "Making Digital Storytelling More Playful, Powerful, and AliveShader is a creative development studio specialized in building interactive 3D and AI solutions for the web. Serious about business, based in Sweden, and working with brands, agen",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "ContactContact us about your digital project idea or general enquires. Let's interface, call us today!General Enquirieshello@shader.seBook a callVisit usLaxholmstorget 3602 21 NorrköpingSwedenSocialLinkedInInstagramX (Twitter)New businessRe",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          }
+        ],
+        "cssVariables": [
+          [
+            "--font-stix",
+            "\"STIX Two Text\", \"STIX Two Text Fallback\""
+          ],
+          [
+            "--tw-border-spacing-x",
+            "0"
+          ],
+          [
+            "--tw-border-spacing-y",
+            "0"
+          ],
+          [
+            "--tw-translate-x",
+            "0"
+          ],
+          [
+            "--tw-translate-y",
+            "0"
+          ],
+          [
+            "--tw-rotate",
+            "0"
+          ],
+          [
+            "--tw-skew-x",
+            "0"
+          ],
+          [
+            "--tw-skew-y",
+            "0"
+          ],
+          [
+            "--tw-scale-x",
+            "1"
+          ],
+          [
+            "--tw-scale-y",
+            "1"
+          ],
+          [
+            "--tw-pan-x",
+            ""
+          ],
+          [
+            "--tw-pan-y",
+            ""
+          ],
+          [
+            "--tw-pinch-zoom",
+            ""
+          ],
+          [
+            "--tw-scroll-snap-strictness",
+            "proximity"
+          ],
+          [
+            "--tw-gradient-from-position",
+            ""
+          ],
+          [
+            "--tw-gradient-via-position",
+            ""
+          ],
+          [
+            "--tw-gradient-to-position",
+            ""
+          ],
+          [
+            "--tw-ordinal",
+            ""
+          ],
+          [
+            "--tw-slashed-zero",
+            ""
+          ],
+          [
+            "--tw-numeric-figure",
+            ""
+          ],
+          [
+            "--tw-numeric-spacing",
+            ""
+          ],
+          [
+            "--tw-numeric-fraction",
+            ""
+          ],
+          [
+            "--tw-ring-inset",
+            ""
+          ],
+          [
+            "--tw-ring-offset-width",
+            "0px"
+          ],
+          [
+            "--tw-ring-offset-color",
+            "#fff"
+          ],
+          [
+            "--tw-ring-color",
+            "#3b82f680"
+          ],
+          [
+            "--tw-ring-offset-shadow",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-ring-shadow",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-shadow",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-shadow-colored",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-blur",
+            ""
+          ],
+          [
+            "--tw-brightness",
+            ""
+          ],
+          [
+            "--tw-contrast",
+            ""
+          ],
+          [
+            "--tw-grayscale",
+            ""
+          ],
+          [
+            "--tw-hue-rotate",
+            ""
+          ],
+          [
+            "--tw-invert",
+            ""
+          ],
+          [
+            "--tw-saturate",
+            ""
+          ],
+          [
+            "--tw-sepia",
+            ""
+          ],
+          [
+            "--tw-drop-shadow",
+            ""
+          ],
+          [
+            "--tw-backdrop-blur",
+            ""
+          ],
+          [
+            "--tw-backdrop-brightness",
+            ""
+          ],
+          [
+            "--tw-backdrop-contrast",
+            ""
+          ],
+          [
+            "--tw-backdrop-grayscale",
+            ""
+          ],
+          [
+            "--tw-backdrop-hue-rotate",
+            ""
+          ],
+          [
+            "--tw-backdrop-invert",
+            ""
+          ],
+          [
+            "--tw-backdrop-opacity",
+            ""
+          ],
+          [
+            "--tw-backdrop-saturate",
+            ""
+          ],
+          [
+            "--tw-backdrop-sepia",
+            ""
+          ],
+          [
+            "--tw-contain-size",
+            ""
+          ],
+          [
+            "--tw-contain-layout",
+            ""
+          ],
+          [
+            "--tw-contain-paint",
+            ""
+          ],
+          [
+            "--tw-contain-style",
+            ""
+          ],
+          [
+            "--tw-content",
+            "\"\""
+          ],
+          [
+            "--vh",
+            "1svh"
+          ],
+          [
+            "--vw",
+            "1svw"
+          ],
+          [
+            "--page-height",
+            "3"
+          ],
+          [
+            "--page-width",
+            "1"
+          ],
+          [
+            "--tw-pan-y",
+            "pan-y"
+          ],
+          [
+            "--tw-space-y-reverse",
+            "0"
+          ],
+          [
+            "--tw-border-opacity",
+            "1"
+          ],
+          [
+            "--tw-bg-opacity",
+            "1"
+          ],
+          [
+            "--tw-bg-opacity",
+            "1"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ],
+          [
+            "--tw-shadow",
+            "0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a"
+          ],
+          [
+            "--tw-shadow-colored",
+            "0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color)"
+          ],
+          [
+            "--tw-ring-offset-shadow",
+            "var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)"
+          ],
+          [
+            "--tw-ring-shadow",
+            "var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)"
+          ],
+          [
+            "--tw-blur",
+            "blur(8px)"
+          ],
+          [
+            "--tw-grayscale",
+            "grayscale(100%)"
+          ],
+          [
+            "--tw-invert",
+            "invert(100%)"
+          ],
+          [
+            "--tw-backdrop-blur",
+            "blur(8px)"
+          ],
+          [
+            "--tw-backdrop-blur",
+            "blur(12px)"
+          ],
+          [
+            "--background",
+            "#fff"
+          ],
+          [
+            "--foreground",
+            "#fcf9f3"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ]
+        ],
+        "fonts": [
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text Fallback"
+        ],
+        "images": [],
+        "canvases": [
+          {
+            "width": 768,
+            "height": 900,
+            "cssWidth": 768,
+            "cssHeight": 900
+          }
+        ]
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "screenshot": "screenshots/original-390.png",
+      "signals": {
+        "href": "https://www.shader.se/",
+        "title": "Shader Development Studio",
+        "lang": "en",
+        "bodyTextChars": 3513,
+        "scrollHeight": 900,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        },
+        "h1": [
+          "A Creative Development Studio, Plugged into the Future"
+        ],
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "A Creative Development Studio, Plugged into the Future"
+          },
+          {
+            "tag": "h2",
+            "text": "Selected Work"
+          },
+          {
+            "tag": "h2",
+            "text": "Making Digital Storytelling More Playful, Powerful, and Alive"
+          },
+          {
+            "tag": "h2",
+            "text": "Contact"
+          }
+        ],
+        "metaDescription": "Empowering Your Business with Next-Generation Interactive 3D and AI Solutions. Based in Sweden and Working with Brands and Agencies Worldwide.",
+        "counts": {
+          "links": 9,
+          "images": 0,
+          "video": 0,
+          "canvas": 1,
+          "sections": 5,
+          "forms": 0,
+          "buttons": 9,
+          "inputs": 0,
+          "interactive": 19,
+          "scripts": 15,
+          "stylesheets": 1
+        },
+        "frameworks": {
+          "react": false,
+          "next": true,
+          "vue": false,
+          "nuxt": false,
+          "svelte": false,
+          "astro": false,
+          "three": false,
+          "gsap": false,
+          "lenis": false
+        },
+        "scripts": [
+          "https://www.shader.se/_next/static/chunks/0f9pmwk9~iqf..js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/17.79-onzp9ko.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/01rpcm9oxyz4o.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/turbopack-06237-s6b4.it.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/03r54qy_a1k2c.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0_4n59_u4tn.y.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0_2dh_hbsn4k2.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/09d2g3rtnbzgs.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/12vmxu4i7-3qm.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/0-4avss~~5x31.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://www.shader.se/_next/static/chunks/03~yq9q893hmn.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+          "https://analytics.shader.build/script.js",
+          "https://www.shader.se/_next/static/chunks/07k6izpr80.um.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu"
+        ],
+        "stylesheets": [
+          "https://www.shader.se/_next/static/chunks/0l.t8ml2224no.css?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu"
+        ],
+        "sections": [
+          {
+            "tag": "nav",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "Shader — HomeHomeSelected WorkAbout UsContactBook a call",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "A Creative Development Studio, Plugged into the FutureScroll to Inspect Our Closed Deals",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "Selected WorkBrowse our project carousel to explore our selected work.Project carouselPrevious projectView project: eHealth Arena 3D Showroom, developed in collaboration with Markus ReklambyråNext project",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "Making Digital Storytelling More Playful, Powerful, and AliveShader is a creative development studio specialized in building interactive 3D and AI solutions for the web. Serious about business, based in Sweden, and working with brands, agen",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          },
+          {
+            "tag": "section",
+            "id": "",
+            "className": "a11y-hidden",
+            "text": "ContactContact us about your digital project idea or general enquires. Let's interface, call us today!General Enquirieshello@shader.seBook a callVisit usLaxholmstorget 3602 21 NorrköpingSwedenSocialLinkedInInstagramX (Twitter)New businessRe",
+            "rect": {
+              "x": -1,
+              "y": -1,
+              "width": 1,
+              "height": 1
+            },
+            "style": {
+              "display": "block",
+              "position": "fixed",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(252, 249, 243)",
+              "fontFamily": "\"STIX Two Text\", \"STIX Two Text Fallback\"",
+              "fontSize": "16px"
+            }
+          }
+        ],
+        "cssVariables": [
+          [
+            "--font-stix",
+            "\"STIX Two Text\", \"STIX Two Text Fallback\""
+          ],
+          [
+            "--tw-border-spacing-x",
+            "0"
+          ],
+          [
+            "--tw-border-spacing-y",
+            "0"
+          ],
+          [
+            "--tw-translate-x",
+            "0"
+          ],
+          [
+            "--tw-translate-y",
+            "0"
+          ],
+          [
+            "--tw-rotate",
+            "0"
+          ],
+          [
+            "--tw-skew-x",
+            "0"
+          ],
+          [
+            "--tw-skew-y",
+            "0"
+          ],
+          [
+            "--tw-scale-x",
+            "1"
+          ],
+          [
+            "--tw-scale-y",
+            "1"
+          ],
+          [
+            "--tw-pan-x",
+            ""
+          ],
+          [
+            "--tw-pan-y",
+            ""
+          ],
+          [
+            "--tw-pinch-zoom",
+            ""
+          ],
+          [
+            "--tw-scroll-snap-strictness",
+            "proximity"
+          ],
+          [
+            "--tw-gradient-from-position",
+            ""
+          ],
+          [
+            "--tw-gradient-via-position",
+            ""
+          ],
+          [
+            "--tw-gradient-to-position",
+            ""
+          ],
+          [
+            "--tw-ordinal",
+            ""
+          ],
+          [
+            "--tw-slashed-zero",
+            ""
+          ],
+          [
+            "--tw-numeric-figure",
+            ""
+          ],
+          [
+            "--tw-numeric-spacing",
+            ""
+          ],
+          [
+            "--tw-numeric-fraction",
+            ""
+          ],
+          [
+            "--tw-ring-inset",
+            ""
+          ],
+          [
+            "--tw-ring-offset-width",
+            "0px"
+          ],
+          [
+            "--tw-ring-offset-color",
+            "#fff"
+          ],
+          [
+            "--tw-ring-color",
+            "#3b82f680"
+          ],
+          [
+            "--tw-ring-offset-shadow",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-ring-shadow",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-shadow",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-shadow-colored",
+            "0 0 #0000"
+          ],
+          [
+            "--tw-blur",
+            ""
+          ],
+          [
+            "--tw-brightness",
+            ""
+          ],
+          [
+            "--tw-contrast",
+            ""
+          ],
+          [
+            "--tw-grayscale",
+            ""
+          ],
+          [
+            "--tw-hue-rotate",
+            ""
+          ],
+          [
+            "--tw-invert",
+            ""
+          ],
+          [
+            "--tw-saturate",
+            ""
+          ],
+          [
+            "--tw-sepia",
+            ""
+          ],
+          [
+            "--tw-drop-shadow",
+            ""
+          ],
+          [
+            "--tw-backdrop-blur",
+            ""
+          ],
+          [
+            "--tw-backdrop-brightness",
+            ""
+          ],
+          [
+            "--tw-backdrop-contrast",
+            ""
+          ],
+          [
+            "--tw-backdrop-grayscale",
+            ""
+          ],
+          [
+            "--tw-backdrop-hue-rotate",
+            ""
+          ],
+          [
+            "--tw-backdrop-invert",
+            ""
+          ],
+          [
+            "--tw-backdrop-opacity",
+            ""
+          ],
+          [
+            "--tw-backdrop-saturate",
+            ""
+          ],
+          [
+            "--tw-backdrop-sepia",
+            ""
+          ],
+          [
+            "--tw-contain-size",
+            ""
+          ],
+          [
+            "--tw-contain-layout",
+            ""
+          ],
+          [
+            "--tw-contain-paint",
+            ""
+          ],
+          [
+            "--tw-contain-style",
+            ""
+          ],
+          [
+            "--tw-content",
+            "\"\""
+          ],
+          [
+            "--vh",
+            "1svh"
+          ],
+          [
+            "--vw",
+            "1svw"
+          ],
+          [
+            "--page-height",
+            "3"
+          ],
+          [
+            "--page-width",
+            "1"
+          ],
+          [
+            "--tw-pan-y",
+            "pan-y"
+          ],
+          [
+            "--tw-space-y-reverse",
+            "0"
+          ],
+          [
+            "--tw-border-opacity",
+            "1"
+          ],
+          [
+            "--tw-bg-opacity",
+            "1"
+          ],
+          [
+            "--tw-bg-opacity",
+            "1"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ],
+          [
+            "--tw-shadow",
+            "0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a"
+          ],
+          [
+            "--tw-shadow-colored",
+            "0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color)"
+          ],
+          [
+            "--tw-ring-offset-shadow",
+            "var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)"
+          ],
+          [
+            "--tw-ring-shadow",
+            "var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)"
+          ],
+          [
+            "--tw-blur",
+            "blur(8px)"
+          ],
+          [
+            "--tw-grayscale",
+            "grayscale(100%)"
+          ],
+          [
+            "--tw-invert",
+            "invert(100%)"
+          ],
+          [
+            "--tw-backdrop-blur",
+            "blur(8px)"
+          ],
+          [
+            "--tw-backdrop-blur",
+            "blur(12px)"
+          ],
+          [
+            "--background",
+            "#fff"
+          ],
+          [
+            "--foreground",
+            "#fcf9f3"
+          ],
+          [
+            "--tw-text-opacity",
+            "1"
+          ]
+        ],
+        "fonts": [
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text",
+          "STIX Two Text Fallback"
+        ],
+        "images": [],
+        "canvases": [
+          {
+            "width": 390,
+            "height": 900,
+            "cssWidth": 390,
+            "cssHeight": 900
+          }
+        ]
+      }
+    }
+  ]
+}
