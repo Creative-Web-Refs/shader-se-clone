@@ -5,166 +5,210 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="A clean-room WebGL study of scroll-directed scenes and analog CRT post-processing."
+      content="A clean-room recreation study of Shader Development Studio's cinematic scroll experience."
     />
-    <meta name="theme-color" content="#0b0713" />
+    <meta name="theme-color" content="#0a0a0a" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <title>Circuit Office — WebGL Study</title>
+    <title>Shader Development Studio — Recreation Study</title>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
     <div class="boot" aria-hidden="true">
-      <div class="boot__screen">
-        <div class="wordmark">
-          <span class="wordmark__mark"></span>
-          <span>CIRCUIT</span>
-        </div>
-        <p>Creative Systems Bureau<br />Website Version 1.00</p>
-        <div class="boot__track"><span></span></div>
-        <small>Independent clean-room WebGL study, 2026.</small>
+      <div class="boot__inner">
+        <div class="logo logo--large"><i></i><b>SHADER</b></div>
+        <p>Creative Development Studio<br />System Version 1.00</p>
+        <span class="boot__bar"><i></i></span>
+        <small>Initializing interactive business solutions…</small>
       </div>
     </div>
 
-    <div class="stage" aria-hidden="true">
-      <canvas id="scene"></canvas>
-      <div class="crt-overlay"></div>
-    </div>
-
-    <header class="topbar">
-      <a class="brand" href="#home" aria-label="Circuit Office, return home">
-        <span class="brand__mark"></span>
-        <span>Circuit Office</span>
+    <header class="site-header">
+      <a class="logo" href="#home" aria-label="Shader — Home">
+        <i></i><b>SHADER</b>
       </a>
-      <nav aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#work">Selected Work</a>
+        <a href="#about">About Us</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="call-link" href="mailto:studio@example.com">Open a line ↗</a>
+      <a
+        class="book-call"
+        href="https://cal.com/simon-hedlund-kglzne"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span aria-hidden="true">☎</span> Book a call
+      </a>
     </header>
 
     <main id="main">
-      <section class="chapter chapter--hero" id="home" data-scene="0">
-        <div class="chapter__eyebrow">Creative systems bureau · Est. 1986*</div>
-        <h1>Tomorrow’s interfaces.<br />Yesterday’s confidence.</h1>
-        <div class="chapter__bottom">
-          <p>Scroll to review our closed circuits</p>
-          <span aria-hidden="true">↓</span>
-        </div>
-        <p class="asterisk">*Backdated for credibility.</p>
-      </section>
-
-      <section class="chapter chapter--work" id="work" data-scene="1">
-        <div class="chapter__index">01 / SELECTED OPERATIONS</div>
-        <div class="chapter__copy">
-          <p class="kicker">Evidence over adjectives</p>
-          <h2>Systems that move<br />at human speed.</h2>
-        </div>
-        <div class="project-strip" aria-label="Selected fictional projects">
-          <article>
-            <span>01</span>
-            <h3>Northline Atlas</h3>
-            <p>Live logistics model</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Afterlight</h3>
-            <p>Spatial product story</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Common Signal</h3>
-            <p>Interactive data room</p>
-          </article>
+      <section class="hero dark-panel" id="home" data-theme="dark">
+        <div class="hero__media" aria-hidden="true"></div>
+        <div class="hero__copy">
+          <h1>A Creative<br />Development<br />Studio, Plugged<br />into the Future</h1>
+          <p>Scroll to Inspect Our Closed Deals <span>☞ ☞</span></p>
         </div>
       </section>
 
-      <section class="chapter chapter--office" data-scene="2">
-        <div class="chapter__index">02 / OPERATING MODEL</div>
-        <div class="office-copy">
-          <p>MEMORANDUM — TO WHOM IT MAY CONCERN</p>
-          <h2>Small desk.<br />Wide bandwidth.</h2>
+      <section class="work dark-panel" id="work" data-theme="dark">
+        <div class="work__card">
+          <h2>eHealth Arena</h2>
+          <p>3D Showroom&nbsp;&nbsp;•&nbsp;&nbsp;<a href="#about">View project →</a></p>
+          <div class="film" aria-label="Project carousel">
+            <div class="film__rail">
+              <article class="project project--one">
+                <span>Interactive<br />3D showroom</span>
+              </article>
+              <article class="project project--two">
+                <div class="room"><i></i><i></i><i></i><i></i></div>
+              </article>
+              <article class="project project--three">
+                <span>Design<br />is Funny</span>
+              </article>
+              <article class="project project--four">
+                <span>MAKE<br />IT REAL</span>
+              </article>
+              <article class="project project--five">
+                <span>Flow<br />systems</span>
+              </article>
+            </div>
+          </div>
+          <button class="carousel-button carousel-button--prev" type="button" aria-label="Previous project">←</button>
+          <button class="carousel-button carousel-button--next" type="button" aria-label="Next project">→</button>
+          <div class="dots" aria-hidden="true">
+            <i class="is-active"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="office dark-panel" data-theme="dark" aria-label="About transition">
+        <div class="office__media" aria-hidden="true"></div>
+        <h2>About Us</h2>
+        <div class="page-turn" aria-hidden="true"></div>
+      </section>
+
+      <section class="about paper-panel" id="about" data-theme="paper">
+        <div class="about__intro">
+          <h2>Making Digital<br />Storytelling More<br />Playful, Powerful,<br />and Alive</h2>
+          <div class="about__columns">
+            <p>
+              Shader is a creative development studio specialized in building interactive
+              3D and AI solutions for the web. Serious about business, based in Sweden,
+              and working with brands, agencies and designers worldwide.
+            </p>
+            <p>
+              We build storytelling platforms that demand attention and reward curiosity.
+              We push digital mediums to places you haven't seen before, and have fun doing
+              it. Beyond code, we offer 3D design and animation, UI and motion design,
+              concepts and digital strategy, full-stack development, and creative consulting.
+            </p>
+          </div>
+          <div class="portrait-card" aria-hidden="true">
+            <div class="portrait-card__head"></div>
+            <div class="portrait-card__body"></div>
+            <b>SHADER</b>
+          </div>
+        </div>
+
+        <div class="clients-block">
+          <h3>Valued Clients</h3>
           <p>
-            We assemble compact teams around the problem: creative direction,
-            realtime graphics, motion, and engineering. Fewer hand-offs. Better
-            signal.
+            We have had the benefit of working with a large pool of great clients
+            throughout the years. Our partnerships range from recognizable Swedish brands
+            to international innovators.
           </p>
+          <img
+            src="/media/clients.png"
+            alt="Original retro corporate collage with two business people and abstract client marks"
+          />
         </div>
-        <div class="ticker" aria-hidden="true">
-          <span>CLARITY ▲ 18.4% · LATENCY ▼ 42.0% · CRAFT ▲ COMPOUNDING ·</span>
-          <span>CLARITY ▲ 18.4% · LATENCY ▼ 42.0% · CRAFT ▲ COMPOUNDING ·</span>
-        </div>
-      </section>
 
-      <section class="chapter chapter--about" id="about" data-scene="3">
-        <div class="chapter__index">03 / ABOUT THE BUREAU</div>
-        <div class="about-grid">
-          <h2>
-            Playful enough<br />to be remembered.<br />Precise enough<br />to be
-            useful.
-          </h2>
-          <div>
-            <p>
-              Circuit Office is a fictional studio created for this technical
-              study. The work is original; the visual language studies a real
-              reference site’s scroll pacing, scene grammar, and analog finish.
-            </p>
-            <p>
-              One render surface carries the story. DOM text remains semantic,
-              while the GPU handles space, light, transition, and imperfection.
-            </p>
+        <div class="technology-block">
+          <h3>About Technology</h3>
+          <div class="technology-block__grid">
+            <div>
+              <p>
+                In today's fast-paced corporate landscape, you need a partner who
+                understands the bottom line. At Shader, we engineer success through
+                strategic alliances and mutual profitability. We don't just close deals;
+                we deliver results that compound.
+              </p>
+              <p>
+                We leverage state-of-the-art technology to give your brand a decisive
+                competitive advantage. Whether disrupting the market with
+                paradigm-shifting 3D experiences or streamlining operations with
+                cutting-edge AI, we provide turnkey solutions that scale.
+              </p>
+              <div class="about-wordmark"><i></i><b>SHADER</b></div>
+            </div>
+            <aside>
+              <h4>Act now! Book a<br />Consultation.</h4>
+              <p>Cut along the dotted line and mail this to the post address below for a free 30 minute video call consultation.</p>
+              <label>Email: <span></span></label>
+              <p>Shader Sweden AB<br />Laxholmstorget 3<br />602 21 Norrköping, Sweden</p>
+              <a href="https://cal.com/simon-hedlund-kglzne" target="_blank" rel="noreferrer">☎ &nbsp;Book a Call Today</a>
+            </aside>
           </div>
         </div>
       </section>
 
-      <section class="chapter chapter--tie" data-scene="4">
-        <div class="chapter__index">04 / EXECUTIVE ALIGNMENT</div>
-        <p class="kicker">A decisive competitive advantage</p>
-        <h2>Build the thing<br />people point at.</h2>
-        <p class="tie-note">
-          Real-time graphics · Product storytelling · Prototypes · Creative
-          engineering
+      <section class="convince dark-panel" data-theme="dark">
+        <div class="convince__waves" aria-hidden="true"></div>
+        <div class="convince__copy">
+          <h2>Still Not Convinced<br />We're Serious<br />About Business?</h2>
+          <p>We've got one last trick up our sleeve.</p>
+        </div>
+        <div class="star-wipe" aria-hidden="true"><i></i></div>
+      </section>
+
+      <section class="tie dark-panel" data-theme="dark">
+        <div class="tie__media" aria-hidden="true"></div>
+        <div class="tie__copy">
+          <h2>Check Out This Golden Tie</h2>
+          <p>You made it this far. You deserve a tie-break.</p>
+        </div>
+      </section>
+
+      <section class="hello dark-panel" data-theme="dark">
+        <div class="hello__media" aria-hidden="true"></div>
+        <h2>“Hello”</h2>
+      </section>
+
+      <section class="contact dark-panel" id="contact" data-theme="dark">
+        <h2>Good buy.</h2>
+        <p class="contact__intro">
+          Contact us about your digital project<br />
+          idea or general enquires. Let's<br />
+          interface, call us today!
         </p>
-      </section>
-
-      <section class="chapter chapter--contact" id="contact" data-scene="5">
-        <div class="chapter__index">05 / OPEN CHANNEL</div>
-        <div class="contact-grid">
+        <div class="contact__grid">
           <div>
-            <p class="kicker">Ready when you are</p>
-            <h2>Let’s make<br />the signal clear.</h2>
+            <h3>General Enquiries</h3>
+            <a href="mailto:hello@shader.se">hello@shader.se</a>
+            <a href="https://cal.com/simon-hedlund-kglzne" target="_blank" rel="noreferrer">Book a call</a>
           </div>
-          <div class="contact-list">
-            <a href="mailto:studio@example.com">
-              <span>General enquiries</span>
-              studio@example.com
-            </a>
-            <a
-              href="https://github.com/Creative-Web-Refs"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>Source archive</span>
-              Creative-Web-Refs ↗
-            </a>
+          <div>
+            <h3>Visit us</h3>
+            <address>Laxholmstorget 3<br />602 21 Norrköping<br />Sweden</address>
+          </div>
+          <div>
+            <h3>Social</h3>
+            <a href="https://www.linkedin.com/company/shadersweden/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/shadersweden/" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://x.com/shadersweden" target="_blank" rel="noreferrer">X (Twitter)</a>
           </div>
         </div>
         <footer>
-          <span>Circuit Office™</span>
-          <span>Independent study — no affiliation with Shader Sweden AB</span>
+          <p>Clean-room recreation study — no affiliation with Shader Sweden AB.</p>
+          <a href="https://github.com/Creative-Web-Refs/shader-se-clone" target="_blank" rel="noreferrer">Source ↗</a>
         </footer>
       </section>
     </main>
 
-    <div class="progress" aria-hidden="true">
-      <span class="progress__section">SEC. 01</span>
-      <span class="progress__line"><i></i></span>
-      <span class="progress__value">000</span>
-    </div>
-
-    <p class="study-label">CLEAN-ROOM STUDY · SOURCE/ASSET INDEPENDENT</p>
-
+    <div class="analog-overlay" aria-hidden="true"></div>
+    <canvas id="noise" aria-hidden="true"></canvas>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

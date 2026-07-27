@@ -2,7 +2,7 @@
 
 - Project: /Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone
 - Scanned files: 7
-- Findings: 189
+- Findings: 205
 
 ## 追踪脚本 / 统计像素
 - 未发现
@@ -11,21 +11,32 @@
 - README.md:1 · brand residue: Shader · `Shader`
 - README.md:4 · brand residue: Shader · `shader`
 - README.md:4 · brand residue: Shader · `shader`
-- README.md:10 · brand residue: Shader · `Shader`
-- README.md:42 · brand residue: Shader · `shader`
-- README.md:45 · brand residue: Shader · `shader`
-- README.md:54 · brand residue: Shader · `shader`
-- README.md:72 · brand residue: Shader · `shader`
-- README.md:77 · brand residue: Shader · `shader`
-- README.md:179 · brand residue: Shader · `Shader`
-- index.html:148 · brand residue: Shader · `Shader`
+- README.md:12 · brand residue: Shader · `Shader`
+- README.md:17 · brand residue: Shader · `Shader`
+- README.md:217 · brand residue: Shader · `Shader`
+- index.html:8 · brand residue: Shader · `Shader`
+- index.html:12 · brand residue: Shader · `Shader`
+- index.html:19 · brand residue: Shader · `SHADER`
+- index.html:27 · brand residue: Shader · `Shader`
+- index.html:28 · brand residue: Shader · `SHADER`
+- index.html:97 · brand residue: Shader · `Shader`
+- index.html:111 · brand residue: Shader · `SHADER`
+- index.html:134 · brand residue: Shader · `Shader`
+- index.html:144 · brand residue: Shader · `SHADER`
+- index.html:150 · brand residue: Shader · `Shader`
+- index.html:189 · brand residue: Shader · `shader`
+- index.html:189 · brand residue: Shader · `shader`
+- index.html:198 · brand residue: Shader · `shader`
+- index.html:199 · brand residue: Shader · `shader`
+- index.html:200 · brand residue: Shader · `shader`
+- index.html:204 · brand residue: Shader · `Shader`
+- index.html:205 · brand residue: Shader · `shader`
 - package-lock.json:2 · brand residue: Shader · `shader`
 - package-lock.json:8 · brand residue: Shader · `shader`
 - package.json:2 · brand residue: Shader · `shader`
 - package.json:10 · brand residue: Shader · `shader`
-- src/main.js:50 · brand residue: Shader · `Shader`
-- src/main.js:54 · brand residue: Shader · `Shader`
-- src/main.js:61 · brand residue: Shader · `Shader`
+- src/style.css:2 · brand residue: Shader · `Shader`
+- src/style.css:17 · brand residue: Shader · `Shader`
 
 ## 日文残留
 - 未发现
@@ -35,179 +46,185 @@
 
 ## 外部依赖 / 外链风险
 - README.md:4 · external URL · `https://www.shader.se`
-- index.html:140 · external URL · `https://github.com/Creative-Web-Refs`
-- package-lock.json:21 · external URL · `https://registry.npmmirror.com/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.5.0.tgz`
-- package-lock.json:31 · external URL · `https://registry.npmmirror.com/@cloudflare/unenv-preset/-/unenv-preset-2.16.1.tgz`
-- package-lock.json:47 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-darwin-64/-/workerd-darwin-64-1.20260722.1.tgz`
-- package-lock.json:64 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-darwin-arm64/-/workerd-darwin-arm64-1.20260722.1.tgz`
-- package-lock.json:81 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-linux-64/-/workerd-linux-64-1.20260722.1.tgz`
-- package-lock.json:98 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-linux-arm64/-/workerd-linux-arm64-1.20260722.1.tgz`
-- package-lock.json:115 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-windows-64/-/workerd-windows-64-1.20260722.1.tgz`
-- package-lock.json:132 · external URL · `https://registry.npmmirror.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz`
-- package-lock.json:145 · external URL · `https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.3.tgz`
-- package-lock.json:156 · external URL · `https://registry.npmmirror.com/@esbuild/aix-ppc64/-/aix-ppc64-0.28.1.tgz`
-- package-lock.json:173 · external URL · `https://registry.npmmirror.com/@esbuild/android-arm/-/android-arm-0.28.1.tgz`
-- package-lock.json:190 · external URL · `https://registry.npmmirror.com/@esbuild/android-arm64/-/android-arm64-0.28.1.tgz`
-- package-lock.json:207 · external URL · `https://registry.npmmirror.com/@esbuild/android-x64/-/android-x64-0.28.1.tgz`
-- package-lock.json:224 · external URL · `https://registry.npmmirror.com/@esbuild/darwin-arm64/-/darwin-arm64-0.28.1.tgz`
-- package-lock.json:241 · external URL · `https://registry.npmmirror.com/@esbuild/darwin-x64/-/darwin-x64-0.28.1.tgz`
-- package-lock.json:258 · external URL · `https://registry.npmmirror.com/@esbuild/freebsd-arm64/-/freebsd-arm64-0.28.1.tgz`
-- package-lock.json:275 · external URL · `https://registry.npmmirror.com/@esbuild/freebsd-x64/-/freebsd-x64-0.28.1.tgz`
-- package-lock.json:292 · external URL · `https://registry.npmmirror.com/@esbuild/linux-arm/-/linux-arm-0.28.1.tgz`
-- package-lock.json:309 · external URL · `https://registry.npmmirror.com/@esbuild/linux-arm64/-/linux-arm64-0.28.1.tgz`
-- package-lock.json:326 · external URL · `https://registry.npmmirror.com/@esbuild/linux-ia32/-/linux-ia32-0.28.1.tgz`
-- package-lock.json:343 · external URL · `https://registry.npmmirror.com/@esbuild/linux-loong64/-/linux-loong64-0.28.1.tgz`
-- package-lock.json:360 · external URL · `https://registry.npmmirror.com/@esbuild/linux-mips64el/-/linux-mips64el-0.28.1.tgz`
-- package-lock.json:377 · external URL · `https://registry.npmmirror.com/@esbuild/linux-ppc64/-/linux-ppc64-0.28.1.tgz`
-- package-lock.json:394 · external URL · `https://registry.npmmirror.com/@esbuild/linux-riscv64/-/linux-riscv64-0.28.1.tgz`
-- package-lock.json:411 · external URL · `https://registry.npmmirror.com/@esbuild/linux-s390x/-/linux-s390x-0.28.1.tgz`
-- package-lock.json:428 · external URL · `https://registry.npmmirror.com/@esbuild/linux-x64/-/linux-x64-0.28.1.tgz`
-- package-lock.json:445 · external URL · `https://registry.npmmirror.com/@esbuild/netbsd-arm64/-/netbsd-arm64-0.28.1.tgz`
-- package-lock.json:462 · external URL · `https://registry.npmmirror.com/@esbuild/netbsd-x64/-/netbsd-x64-0.28.1.tgz`
-- package-lock.json:479 · external URL · `https://registry.npmmirror.com/@esbuild/openbsd-arm64/-/openbsd-arm64-0.28.1.tgz`
-- package-lock.json:496 · external URL · `https://registry.npmmirror.com/@esbuild/openbsd-x64/-/openbsd-x64-0.28.1.tgz`
-- package-lock.json:513 · external URL · `https://registry.npmmirror.com/@esbuild/openharmony-arm64/-/openharmony-arm64-0.28.1.tgz`
-- package-lock.json:530 · external URL · `https://registry.npmmirror.com/@esbuild/sunos-x64/-/sunos-x64-0.28.1.tgz`
-- package-lock.json:547 · external URL · `https://registry.npmmirror.com/@esbuild/win32-arm64/-/win32-arm64-0.28.1.tgz`
-- package-lock.json:564 · external URL · `https://registry.npmmirror.com/@esbuild/win32-ia32/-/win32-ia32-0.28.1.tgz`
-- package-lock.json:581 · external URL · `https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.28.1.tgz`
-- package-lock.json:598 · external URL · `https://registry.npmmirror.com/@img/colour/-/colour-1.1.0.tgz`
-- package-lock.json:608 · external URL · `https://registry.npmmirror.com/@img/sharp-darwin-arm64/-/sharp-darwin-arm64-0.35.2.tgz`
-- package-lock.json:623 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:631 · external URL · `https://registry.npmmirror.com/@img/sharp-darwin-x64/-/sharp-darwin-x64-0.35.2.tgz`
-- package-lock.json:646 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:654 · external URL · `https://registry.npmmirror.com/@img/sharp-freebsd-wasm32/-/sharp-freebsd-wasm32-0.35.2.tgz`
-- package-lock.json:669 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:674 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.3.1.tgz`
-- package-lock.json:686 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:691 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-darwin-x64/-/sharp-libvips-darwin-x64-1.3.1.tgz`
-- package-lock.json:703 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:708 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-arm/-/sharp-libvips-linux-arm-1.3.1.tgz`
-- package-lock.json:720 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:725 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-arm64/-/sharp-libvips-linux-arm64-1.3.1.tgz`
-- package-lock.json:737 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:742 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-ppc64/-/sharp-libvips-linux-ppc64-1.3.1.tgz`
-- package-lock.json:754 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:759 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-riscv64/-/sharp-libvips-linux-riscv64-1.3.1.tgz`
-- package-lock.json:771 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:776 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-s390x/-/sharp-libvips-linux-s390x-1.3.1.tgz`
-- package-lock.json:788 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:793 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-x64/-/sharp-libvips-linux-x64-1.3.1.tgz`
-- package-lock.json:805 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:810 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linuxmusl-arm64/-/sharp-libvips-linuxmusl-arm64-1.3.1.tgz`
-- package-lock.json:822 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:827 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linuxmusl-x64/-/sharp-libvips-linuxmusl-x64-1.3.1.tgz`
-- package-lock.json:839 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:844 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-arm/-/sharp-linux-arm-0.35.2.tgz`
-- package-lock.json:859 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:867 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-arm64/-/sharp-linux-arm64-0.35.2.tgz`
-- package-lock.json:882 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:890 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-ppc64/-/sharp-linux-ppc64-0.35.2.tgz`
-- package-lock.json:905 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:913 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-riscv64/-/sharp-linux-riscv64-0.35.2.tgz`
-- package-lock.json:928 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:936 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-s390x/-/sharp-linux-s390x-0.35.2.tgz`
-- package-lock.json:951 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:959 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-x64/-/sharp-linux-x64-0.35.2.tgz`
-- package-lock.json:974 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:982 · external URL · `https://registry.npmmirror.com/@img/sharp-linuxmusl-arm64/-/sharp-linuxmusl-arm64-0.35.2.tgz`
-- package-lock.json:997 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:1005 · external URL · `https://registry.npmmirror.com/@img/sharp-linuxmusl-x64/-/sharp-linuxmusl-x64-0.35.2.tgz`
-- package-lock.json:1020 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:1028 · external URL · `https://registry.npmmirror.com/@img/sharp-wasm32/-/sharp-wasm32-0.35.2.tgz`
-- package-lock.json:1040 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:1045 · external URL · `https://registry.npmmirror.com/@img/sharp-webcontainers-wasm32/-/sharp-webcontainers-wasm32-0.35.2.tgz`
-- package-lock.json:1060 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:1065 · external URL · `https://registry.npmmirror.com/@img/sharp-win32-arm64/-/sharp-win32-arm64-0.35.2.tgz`
-- package-lock.json:1080 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:1085 · external URL · `https://registry.npmmirror.com/@img/sharp-win32-ia32/-/sharp-win32-ia32-0.35.2.tgz`
-- package-lock.json:1100 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:1105 · external URL · `https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.2.tgz`
-- package-lock.json:1120 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:1125 · external URL · `https://registry.npmmirror.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz`
-- package-lock.json:1135 · external URL · `https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz`
-- package-lock.json:1142 · external URL · `https://registry.npmmirror.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz`
-- package-lock.json:1153 · external URL · `https://registry.npmmirror.com/@poppinss/colors/-/colors-4.1.6.tgz`
-- package-lock.json:1163 · external URL · `https://registry.npmmirror.com/@poppinss/dumper/-/dumper-0.6.5.tgz`
-- package-lock.json:1175 · external URL · `https://registry.npmmirror.com/@poppinss/exception/-/exception-1.2.3.tgz`
-- package-lock.json:1182 · external URL · `https://registry.npmmirror.com/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.62.3.tgz`
-- package-lock.json:1196 · external URL · `https://registry.npmmirror.com/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.62.3.tgz`
-- package-lock.json:1210 · external URL · `https://registry.npmmirror.com/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.62.3.tgz`
-- package-lock.json:1224 · external URL · `https://registry.npmmirror.com/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.62.3.tgz`
-- package-lock.json:1238 · external URL · `https://registry.npmmirror.com/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.62.3.tgz`
-- package-lock.json:1252 · external URL · `https://registry.npmmirror.com/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.62.3.tgz`
-- package-lock.json:1266 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.62.3.tgz`
-- package-lock.json:1280 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.62.3.tgz`
-- package-lock.json:1294 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.62.3.tgz`
-- package-lock.json:1308 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.62.3.tgz`
-- package-lock.json:1322 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-loong64-gnu/-/rollup-linux-loong64-gnu-4.62.3.tgz`
-- package-lock.json:1336 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-loong64-musl/-/rollup-linux-loong64-musl-4.62.3.tgz`
-- package-lock.json:1350 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.62.3.tgz`
-- package-lock.json:1364 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-ppc64-musl/-/rollup-linux-ppc64-musl-4.62.3.tgz`
-- package-lock.json:1378 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.62.3.tgz`
-- package-lock.json:1392 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.62.3.tgz`
-- package-lock.json:1406 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.62.3.tgz`
-- package-lock.json:1420 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.62.3.tgz`
-- package-lock.json:1434 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.62.3.tgz`
-- package-lock.json:1448 · external URL · `https://registry.npmmirror.com/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.62.3.tgz`
-- package-lock.json:1462 · external URL · `https://registry.npmmirror.com/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.62.3.tgz`
-- package-lock.json:1476 · external URL · `https://registry.npmmirror.com/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.62.3.tgz`
-- package-lock.json:1490 · external URL · `https://registry.npmmirror.com/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.62.3.tgz`
-- package-lock.json:1504 · external URL · `https://registry.npmmirror.com/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.62.3.tgz`
-- package-lock.json:1518 · external URL · `https://registry.npmmirror.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.62.3.tgz`
-- package-lock.json:1532 · external URL · `https://registry.npmmirror.com/@sindresorhus/is/-/is-7.2.0.tgz`
-- package-lock.json:1540 · external URL · `https://github.com/sindresorhus/is?sponsor=1`
-- package-lock.json:1545 · external URL · `https://registry.npmmirror.com/@speed-highlight/core/-/core-1.2.17.tgz`
-- package-lock.json:1552 · external URL · `https://registry.npmmirror.com/@types/estree/-/estree-1.0.9.tgz`
-- package-lock.json:1559 · external URL · `https://registry.npmmirror.com/blake3-wasm/-/blake3-wasm-2.1.5.tgz`
-- package-lock.json:1566 · external URL · `https://registry.npmmirror.com/cookie/-/cookie-1.1.1.tgz`
-- package-lock.json:1575 · external URL · `https://opencollective.com/express`
-- package-lock.json:1580 · external URL · `https://registry.npmmirror.com/detect-libc/-/detect-libc-2.1.2.tgz`
-- package-lock.json:1590 · external URL · `https://registry.npmmirror.com/error-stack-parser-es/-/error-stack-parser-es-1.0.5.tgz`
-- package-lock.json:1595 · external URL · `https://github.com/sponsors/antfu`
-- package-lock.json:1600 · external URL · `https://registry.npmmirror.com/esbuild/-/esbuild-0.28.1.tgz`
-- package-lock.json:1642 · external URL · `https://registry.npmmirror.com/fdir/-/fdir-6.5.0.tgz`
-- package-lock.json:1660 · external URL · `https://registry.npmmirror.com/fsevents/-/fsevents-2.3.2.tgz`
-- package-lock.json:1675 · external URL · `https://registry.npmmirror.com/kleur/-/kleur-4.1.5.tgz`
-- package-lock.json:1685 · external URL · `https://registry.npmmirror.com/miniflare/-/miniflare-4.20260722.0.tgz`
-- package-lock.json:1706 · external URL · `https://registry.npmmirror.com/nanoid/-/nanoid-3.3.16.tgz`
-- package-lock.json:1712 · external URL · `https://github.com/sponsors/ai`
-- package-lock.json:1725 · external URL · `https://registry.npmmirror.com/path-to-regexp/-/path-to-regexp-6.3.0.tgz`
-- package-lock.json:1732 · external URL · `https://registry.npmmirror.com/pathe/-/pathe-2.0.3.tgz`
-- package-lock.json:1739 · external URL · `https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz`
-- package-lock.json:1746 · external URL · `https://registry.npmmirror.com/picomatch/-/picomatch-4.0.5.tgz`
-- package-lock.json:1754 · external URL · `https://github.com/sponsors/jonschlinkert`
-- package-lock.json:1759 · external URL · `https://registry.npmmirror.com/playwright/-/playwright-1.62.0.tgz`
-- package-lock.json:1778 · external URL · `https://registry.npmmirror.com/playwright-core/-/playwright-core-1.62.0.tgz`
-- package-lock.json:1791 · external URL · `https://registry.npmmirror.com/postcss/-/postcss-8.5.23.tgz`
-- package-lock.json:1797 · external URL · `https://opencollective.com/postcss/`
-- package-lock.json:1801 · external URL · `https://tidelift.com/funding/github/npm/postcss`
-- package-lock.json:1805 · external URL · `https://github.com/sponsors/ai`
-- package-lock.json:1820 · external URL · `https://registry.npmmirror.com/rollup/-/rollup-4.62.3.tgz`
-- package-lock.json:1865 · external URL · `https://registry.npmmirror.com/semver/-/semver-7.8.5.tgz`
-- package-lock.json:1878 · external URL · `https://registry.npmmirror.com/sharp/-/sharp-0.35.2.tgz`
-- package-lock.json:1891 · external URL · `https://opencollective.com/libvips`
-- package-lock.json:1923 · external URL · `https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz`
-- package-lock.json:1933 · external URL · `https://registry.npmmirror.com/supports-color/-/supports-color-10.2.2.tgz`
-- package-lock.json:1941 · external URL · `https://github.com/chalk/supports-color?sponsor=1`
-- package-lock.json:1946 · external URL · `https://registry.npmmirror.com/three/-/three-0.179.1.tgz`
-- package-lock.json:1952 · external URL · `https://registry.npmmirror.com/tinyglobby/-/tinyglobby-0.2.17.tgz`
-- package-lock.json:1964 · external URL · `https://github.com/sponsors/SuperchupuDev`
-- package-lock.json:1969 · external URL · `https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz`
-- package-lock.json:1977 · external URL · `https://registry.npmmirror.com/undici/-/undici-7.28.0.tgz`
-- package-lock.json:1987 · external URL · `https://registry.npmmirror.com/unenv/-/unenv-2.0.0-rc.24.tgz`
-- package-lock.json:1997 · external URL · `https://registry.npmmirror.com/vite/-/vite-7.3.6.tgz`
-- package-lock.json:2016 · external URL · `https://github.com/vitejs/vite?sponsor=1`
-- package-lock.json:2072 · external URL · `https://registry.npmmirror.com/fsevents/-/fsevents-2.3.3.tgz`
-- package-lock.json:2087 · external URL · `https://registry.npmmirror.com/workerd/-/workerd-1.20260722.1.tgz`
-- package-lock.json:2108 · external URL · `https://registry.npmmirror.com/wrangler/-/wrangler-4.114.0.tgz`
-- package-lock.json:2144 · external URL · `https://registry.npmmirror.com/fsevents/-/fsevents-2.3.3.tgz`
-- package-lock.json:2159 · external URL · `https://registry.npmmirror.com/ws/-/ws-8.21.0.tgz`
-- package-lock.json:2181 · external URL · `https://registry.npmmirror.com/youch/-/youch-4.1.0-beta.10.tgz`
-- package-lock.json:2195 · external URL · `https://registry.npmmirror.com/youch-core/-/youch-core-0.3.3.tgz`
+- index.html:38 · external URL · `https://cal.com/simon-hedlund-kglzne`
+- index.html:151 · external URL · `https://cal.com/simon-hedlund-kglzne`
+- index.html:190 · external URL · `https://cal.com/simon-hedlund-kglzne`
+- index.html:198 · external URL · `https://www.linkedin.com/company/shadersweden/`
+- index.html:199 · external URL · `https://www.instagram.com/shadersweden/`
+- index.html:200 · external URL · `https://x.com/shadersweden`
+- index.html:205 · external URL · `https://github.com/Creative-Web-Refs/shader-se-clone`
+- package-lock.json:18 · external URL · `https://registry.npmmirror.com/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.5.0.tgz`
+- package-lock.json:28 · external URL · `https://registry.npmmirror.com/@cloudflare/unenv-preset/-/unenv-preset-2.16.1.tgz`
+- package-lock.json:44 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-darwin-64/-/workerd-darwin-64-1.20260722.1.tgz`
+- package-lock.json:61 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-darwin-arm64/-/workerd-darwin-arm64-1.20260722.1.tgz`
+- package-lock.json:78 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-linux-64/-/workerd-linux-64-1.20260722.1.tgz`
+- package-lock.json:95 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-linux-arm64/-/workerd-linux-arm64-1.20260722.1.tgz`
+- package-lock.json:112 · external URL · `https://registry.npmmirror.com/@cloudflare/workerd-windows-64/-/workerd-windows-64-1.20260722.1.tgz`
+- package-lock.json:129 · external URL · `https://registry.npmmirror.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz`
+- package-lock.json:142 · external URL · `https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.3.tgz`
+- package-lock.json:153 · external URL · `https://registry.npmmirror.com/@esbuild/aix-ppc64/-/aix-ppc64-0.28.1.tgz`
+- package-lock.json:170 · external URL · `https://registry.npmmirror.com/@esbuild/android-arm/-/android-arm-0.28.1.tgz`
+- package-lock.json:187 · external URL · `https://registry.npmmirror.com/@esbuild/android-arm64/-/android-arm64-0.28.1.tgz`
+- package-lock.json:204 · external URL · `https://registry.npmmirror.com/@esbuild/android-x64/-/android-x64-0.28.1.tgz`
+- package-lock.json:221 · external URL · `https://registry.npmmirror.com/@esbuild/darwin-arm64/-/darwin-arm64-0.28.1.tgz`
+- package-lock.json:238 · external URL · `https://registry.npmmirror.com/@esbuild/darwin-x64/-/darwin-x64-0.28.1.tgz`
+- package-lock.json:255 · external URL · `https://registry.npmmirror.com/@esbuild/freebsd-arm64/-/freebsd-arm64-0.28.1.tgz`
+- package-lock.json:272 · external URL · `https://registry.npmmirror.com/@esbuild/freebsd-x64/-/freebsd-x64-0.28.1.tgz`
+- package-lock.json:289 · external URL · `https://registry.npmmirror.com/@esbuild/linux-arm/-/linux-arm-0.28.1.tgz`
+- package-lock.json:306 · external URL · `https://registry.npmmirror.com/@esbuild/linux-arm64/-/linux-arm64-0.28.1.tgz`
+- package-lock.json:323 · external URL · `https://registry.npmmirror.com/@esbuild/linux-ia32/-/linux-ia32-0.28.1.tgz`
+- package-lock.json:340 · external URL · `https://registry.npmmirror.com/@esbuild/linux-loong64/-/linux-loong64-0.28.1.tgz`
+- package-lock.json:357 · external URL · `https://registry.npmmirror.com/@esbuild/linux-mips64el/-/linux-mips64el-0.28.1.tgz`
+- package-lock.json:374 · external URL · `https://registry.npmmirror.com/@esbuild/linux-ppc64/-/linux-ppc64-0.28.1.tgz`
+- package-lock.json:391 · external URL · `https://registry.npmmirror.com/@esbuild/linux-riscv64/-/linux-riscv64-0.28.1.tgz`
+- package-lock.json:408 · external URL · `https://registry.npmmirror.com/@esbuild/linux-s390x/-/linux-s390x-0.28.1.tgz`
+- package-lock.json:425 · external URL · `https://registry.npmmirror.com/@esbuild/linux-x64/-/linux-x64-0.28.1.tgz`
+- package-lock.json:442 · external URL · `https://registry.npmmirror.com/@esbuild/netbsd-arm64/-/netbsd-arm64-0.28.1.tgz`
+- package-lock.json:459 · external URL · `https://registry.npmmirror.com/@esbuild/netbsd-x64/-/netbsd-x64-0.28.1.tgz`
+- package-lock.json:476 · external URL · `https://registry.npmmirror.com/@esbuild/openbsd-arm64/-/openbsd-arm64-0.28.1.tgz`
+- package-lock.json:493 · external URL · `https://registry.npmmirror.com/@esbuild/openbsd-x64/-/openbsd-x64-0.28.1.tgz`
+- package-lock.json:510 · external URL · `https://registry.npmmirror.com/@esbuild/openharmony-arm64/-/openharmony-arm64-0.28.1.tgz`
+- package-lock.json:527 · external URL · `https://registry.npmmirror.com/@esbuild/sunos-x64/-/sunos-x64-0.28.1.tgz`
+- package-lock.json:544 · external URL · `https://registry.npmmirror.com/@esbuild/win32-arm64/-/win32-arm64-0.28.1.tgz`
+- package-lock.json:561 · external URL · `https://registry.npmmirror.com/@esbuild/win32-ia32/-/win32-ia32-0.28.1.tgz`
+- package-lock.json:578 · external URL · `https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.28.1.tgz`
+- package-lock.json:595 · external URL · `https://registry.npmmirror.com/@img/colour/-/colour-1.1.0.tgz`
+- package-lock.json:605 · external URL · `https://registry.npmmirror.com/@img/sharp-darwin-arm64/-/sharp-darwin-arm64-0.35.2.tgz`
+- package-lock.json:620 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:628 · external URL · `https://registry.npmmirror.com/@img/sharp-darwin-x64/-/sharp-darwin-x64-0.35.2.tgz`
+- package-lock.json:643 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:651 · external URL · `https://registry.npmmirror.com/@img/sharp-freebsd-wasm32/-/sharp-freebsd-wasm32-0.35.2.tgz`
+- package-lock.json:666 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:671 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.3.1.tgz`
+- package-lock.json:683 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:688 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-darwin-x64/-/sharp-libvips-darwin-x64-1.3.1.tgz`
+- package-lock.json:700 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:705 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-arm/-/sharp-libvips-linux-arm-1.3.1.tgz`
+- package-lock.json:717 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:722 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-arm64/-/sharp-libvips-linux-arm64-1.3.1.tgz`
+- package-lock.json:734 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:739 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-ppc64/-/sharp-libvips-linux-ppc64-1.3.1.tgz`
+- package-lock.json:751 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:756 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-riscv64/-/sharp-libvips-linux-riscv64-1.3.1.tgz`
+- package-lock.json:768 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:773 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-s390x/-/sharp-libvips-linux-s390x-1.3.1.tgz`
+- package-lock.json:785 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:790 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linux-x64/-/sharp-libvips-linux-x64-1.3.1.tgz`
+- package-lock.json:802 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:807 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linuxmusl-arm64/-/sharp-libvips-linuxmusl-arm64-1.3.1.tgz`
+- package-lock.json:819 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:824 · external URL · `https://registry.npmmirror.com/@img/sharp-libvips-linuxmusl-x64/-/sharp-libvips-linuxmusl-x64-1.3.1.tgz`
+- package-lock.json:836 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:841 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-arm/-/sharp-linux-arm-0.35.2.tgz`
+- package-lock.json:856 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:864 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-arm64/-/sharp-linux-arm64-0.35.2.tgz`
+- package-lock.json:879 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:887 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-ppc64/-/sharp-linux-ppc64-0.35.2.tgz`
+- package-lock.json:902 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:910 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-riscv64/-/sharp-linux-riscv64-0.35.2.tgz`
+- package-lock.json:925 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:933 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-s390x/-/sharp-linux-s390x-0.35.2.tgz`
+- package-lock.json:948 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:956 · external URL · `https://registry.npmmirror.com/@img/sharp-linux-x64/-/sharp-linux-x64-0.35.2.tgz`
+- package-lock.json:971 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:979 · external URL · `https://registry.npmmirror.com/@img/sharp-linuxmusl-arm64/-/sharp-linuxmusl-arm64-0.35.2.tgz`
+- package-lock.json:994 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:1002 · external URL · `https://registry.npmmirror.com/@img/sharp-linuxmusl-x64/-/sharp-linuxmusl-x64-0.35.2.tgz`
+- package-lock.json:1017 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:1025 · external URL · `https://registry.npmmirror.com/@img/sharp-wasm32/-/sharp-wasm32-0.35.2.tgz`
+- package-lock.json:1037 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:1042 · external URL · `https://registry.npmmirror.com/@img/sharp-webcontainers-wasm32/-/sharp-webcontainers-wasm32-0.35.2.tgz`
+- package-lock.json:1057 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:1062 · external URL · `https://registry.npmmirror.com/@img/sharp-win32-arm64/-/sharp-win32-arm64-0.35.2.tgz`
+- package-lock.json:1077 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:1082 · external URL · `https://registry.npmmirror.com/@img/sharp-win32-ia32/-/sharp-win32-ia32-0.35.2.tgz`
+- package-lock.json:1097 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:1102 · external URL · `https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.2.tgz`
+- package-lock.json:1117 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:1122 · external URL · `https://registry.npmmirror.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz`
+- package-lock.json:1132 · external URL · `https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz`
+- package-lock.json:1139 · external URL · `https://registry.npmmirror.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz`
+- package-lock.json:1150 · external URL · `https://registry.npmmirror.com/@poppinss/colors/-/colors-4.1.6.tgz`
+- package-lock.json:1160 · external URL · `https://registry.npmmirror.com/@poppinss/dumper/-/dumper-0.6.5.tgz`
+- package-lock.json:1172 · external URL · `https://registry.npmmirror.com/@poppinss/exception/-/exception-1.2.3.tgz`
+- package-lock.json:1179 · external URL · `https://registry.npmmirror.com/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.62.3.tgz`
+- package-lock.json:1193 · external URL · `https://registry.npmmirror.com/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.62.3.tgz`
+- package-lock.json:1207 · external URL · `https://registry.npmmirror.com/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.62.3.tgz`
+- package-lock.json:1221 · external URL · `https://registry.npmmirror.com/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.62.3.tgz`
+- package-lock.json:1235 · external URL · `https://registry.npmmirror.com/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.62.3.tgz`
+- package-lock.json:1249 · external URL · `https://registry.npmmirror.com/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.62.3.tgz`
+- package-lock.json:1263 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.62.3.tgz`
+- package-lock.json:1277 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.62.3.tgz`
+- package-lock.json:1291 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.62.3.tgz`
+- package-lock.json:1305 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.62.3.tgz`
+- package-lock.json:1319 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-loong64-gnu/-/rollup-linux-loong64-gnu-4.62.3.tgz`
+- package-lock.json:1333 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-loong64-musl/-/rollup-linux-loong64-musl-4.62.3.tgz`
+- package-lock.json:1347 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.62.3.tgz`
+- package-lock.json:1361 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-ppc64-musl/-/rollup-linux-ppc64-musl-4.62.3.tgz`
+- package-lock.json:1375 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.62.3.tgz`
+- package-lock.json:1389 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.62.3.tgz`
+- package-lock.json:1403 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.62.3.tgz`
+- package-lock.json:1417 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.62.3.tgz`
+- package-lock.json:1431 · external URL · `https://registry.npmmirror.com/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.62.3.tgz`
+- package-lock.json:1445 · external URL · `https://registry.npmmirror.com/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.62.3.tgz`
+- package-lock.json:1459 · external URL · `https://registry.npmmirror.com/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.62.3.tgz`
+- package-lock.json:1473 · external URL · `https://registry.npmmirror.com/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.62.3.tgz`
+- package-lock.json:1487 · external URL · `https://registry.npmmirror.com/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.62.3.tgz`
+- package-lock.json:1501 · external URL · `https://registry.npmmirror.com/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.62.3.tgz`
+- package-lock.json:1515 · external URL · `https://registry.npmmirror.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.62.3.tgz`
+- package-lock.json:1529 · external URL · `https://registry.npmmirror.com/@sindresorhus/is/-/is-7.2.0.tgz`
+- package-lock.json:1537 · external URL · `https://github.com/sindresorhus/is?sponsor=1`
+- package-lock.json:1542 · external URL · `https://registry.npmmirror.com/@speed-highlight/core/-/core-1.2.17.tgz`
+- package-lock.json:1549 · external URL · `https://registry.npmmirror.com/@types/estree/-/estree-1.0.9.tgz`
+- package-lock.json:1556 · external URL · `https://registry.npmmirror.com/blake3-wasm/-/blake3-wasm-2.1.5.tgz`
+- package-lock.json:1563 · external URL · `https://registry.npmmirror.com/cookie/-/cookie-1.1.1.tgz`
+- package-lock.json:1572 · external URL · `https://opencollective.com/express`
+- package-lock.json:1577 · external URL · `https://registry.npmmirror.com/detect-libc/-/detect-libc-2.1.2.tgz`
+- package-lock.json:1587 · external URL · `https://registry.npmmirror.com/error-stack-parser-es/-/error-stack-parser-es-1.0.5.tgz`
+- package-lock.json:1592 · external URL · `https://github.com/sponsors/antfu`
+- package-lock.json:1597 · external URL · `https://registry.npmmirror.com/esbuild/-/esbuild-0.28.1.tgz`
+- package-lock.json:1639 · external URL · `https://registry.npmmirror.com/fdir/-/fdir-6.5.0.tgz`
+- package-lock.json:1657 · external URL · `https://registry.npmmirror.com/fsevents/-/fsevents-2.3.2.tgz`
+- package-lock.json:1672 · external URL · `https://registry.npmmirror.com/kleur/-/kleur-4.1.5.tgz`
+- package-lock.json:1682 · external URL · `https://registry.npmmirror.com/miniflare/-/miniflare-4.20260722.0.tgz`
+- package-lock.json:1703 · external URL · `https://registry.npmmirror.com/nanoid/-/nanoid-3.3.16.tgz`
+- package-lock.json:1709 · external URL · `https://github.com/sponsors/ai`
+- package-lock.json:1722 · external URL · `https://registry.npmmirror.com/path-to-regexp/-/path-to-regexp-6.3.0.tgz`
+- package-lock.json:1729 · external URL · `https://registry.npmmirror.com/pathe/-/pathe-2.0.3.tgz`
+- package-lock.json:1736 · external URL · `https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz`
+- package-lock.json:1743 · external URL · `https://registry.npmmirror.com/picomatch/-/picomatch-4.0.5.tgz`
+- package-lock.json:1751 · external URL · `https://github.com/sponsors/jonschlinkert`
+- package-lock.json:1756 · external URL · `https://registry.npmmirror.com/playwright/-/playwright-1.62.0.tgz`
+- package-lock.json:1775 · external URL · `https://registry.npmmirror.com/playwright-core/-/playwright-core-1.62.0.tgz`
+- package-lock.json:1788 · external URL · `https://registry.npmmirror.com/postcss/-/postcss-8.5.23.tgz`
+- package-lock.json:1794 · external URL · `https://opencollective.com/postcss/`
+- package-lock.json:1798 · external URL · `https://tidelift.com/funding/github/npm/postcss`
+- package-lock.json:1802 · external URL · `https://github.com/sponsors/ai`
+- package-lock.json:1817 · external URL · `https://registry.npmmirror.com/rollup/-/rollup-4.62.3.tgz`
+- package-lock.json:1862 · external URL · `https://registry.npmmirror.com/semver/-/semver-7.8.5.tgz`
+- package-lock.json:1875 · external URL · `https://registry.npmmirror.com/sharp/-/sharp-0.35.2.tgz`
+- package-lock.json:1888 · external URL · `https://opencollective.com/libvips`
+- package-lock.json:1920 · external URL · `https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz`
+- package-lock.json:1930 · external URL · `https://registry.npmmirror.com/supports-color/-/supports-color-10.2.2.tgz`
+- package-lock.json:1938 · external URL · `https://github.com/chalk/supports-color?sponsor=1`
+- package-lock.json:1943 · external URL · `https://registry.npmmirror.com/tinyglobby/-/tinyglobby-0.2.17.tgz`
+- package-lock.json:1955 · external URL · `https://github.com/sponsors/SuperchupuDev`
+- package-lock.json:1960 · external URL · `https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz`
+- package-lock.json:1968 · external URL · `https://registry.npmmirror.com/undici/-/undici-7.28.0.tgz`
+- package-lock.json:1978 · external URL · `https://registry.npmmirror.com/unenv/-/unenv-2.0.0-rc.24.tgz`
+- package-lock.json:1988 · external URL · `https://registry.npmmirror.com/vite/-/vite-7.3.6.tgz`
+- package-lock.json:2007 · external URL · `https://github.com/vitejs/vite?sponsor=1`
+- package-lock.json:2063 · external URL · `https://registry.npmmirror.com/fsevents/-/fsevents-2.3.3.tgz`
+- package-lock.json:2078 · external URL · `https://registry.npmmirror.com/workerd/-/workerd-1.20260722.1.tgz`
+- package-lock.json:2099 · external URL · `https://registry.npmmirror.com/wrangler/-/wrangler-4.114.0.tgz`
+- package-lock.json:2135 · external URL · `https://registry.npmmirror.com/fsevents/-/fsevents-2.3.3.tgz`
+- package-lock.json:2150 · external URL · `https://registry.npmmirror.com/ws/-/ws-8.21.0.tgz`
+- package-lock.json:2172 · external URL · `https://registry.npmmirror.com/youch/-/youch-4.1.0-beta.10.tgz`
+- package-lock.json:2186 · external URL · `https://registry.npmmirror.com/youch-core/-/youch-core-0.3.3.tgz`
 
 ## 结论
 - 人工复核通过，可部署。
-- `Shader` 命中分为三类：README/TEARDOWN 的必要出处与免责声明、npm 包名、Three.js 的 `ShaderMaterial` API；没有把原品牌作为克隆品牌使用。
-- 外链仅包括明确的参考原站、Creative-Web-Refs 组织和锁文件依赖来源；运行时不请求第三方字体、分析脚本或原站资产。
-- 原站生产 bundle 与捕获到的第三方脚本已从仓库移除，只保留 hash 和非代码证据。
+- `Shader` 命中是本轮高保真复刻中有意保留的参考品牌、公开页面文案、包名与免责声明，不是未清理占位符。
+- Cal.com、LinkedIn、Instagram、X 与 GitHub 链接均对应页面可见的用户发起操作；站点本身不自动向这些地址发送数据。
+- 运行时不加载原站 bundle、Mux 视频、Prismic 数据、原始模型、原始照片、第三方字体或统计脚本。
+- `public/media` 中的五张视觉资产为本项目生成并在仓库内自托管。

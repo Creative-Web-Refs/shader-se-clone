@@ -1,68 +1,62 @@
 # shader-se-clone · 克隆笔记
 
 ## 源信息
+
 - 原站 URL: https://www.shader.se
 - 源码仓库: 无公开仓库；`shader-sweden` GitHub 组织无公开 repo
 - 原作者: Shader Development Studio / Shader Sweden AB
-- 许可证: 原站加载画面明确标注 **All Rights Reserved**
-- 致谢要求: 明确技术参考来源、非关联声明；不再分发原 bundle/媒体/品牌资产
+- 许可证: 原站加载画面标注 **All Rights Reserved**
+- 发布策略: clean-room 高保真视觉复刻；不再分发原 bundle、模型、视频或照片
 
 ## 技术栈
-- 框架 / 关键库 / Node 版本: Vite 7、Three.js 0.179、原生 HTML/CSS/JS、Node 22
 
-## 复刻前预判
-- 复杂度等级: L5
-- 推荐模式: clean-room 视觉复刻
-- 可高保真的部分: 单 Canvas、滚动分镜、CRT/模拟录像后处理、复古企业视觉节奏
-- 需要近似或替代的部分: WebGPU/TSL → WebGL/GLSL；私有模型/视频 → 原创程序几何
-- 不克隆的部分: Prismic 数据、Mux 视频、项目详情页、原品牌/联系信息、分析追踪
-- 主要风险: 原站无开放许可证且明确 All Rights Reserved，因此禁止镜像/公开重部署原代码资产
+- Vite 7
+- 原生 HTML/CSS/JavaScript
+- 低分辨率 Canvas grain
+- CSS sticky stages、渐变、clip-path、透视与 blend modes
+- Playwright 视觉/交互验证
 
-## 跑起来
-```bash
-cd /Users/sunebear/Code/Zworks/Wsune/creative-refs-2025/shader-se-clone
-npm install
-npm run dev
-```
+## 本轮 1:1 重做
 
-## 改了什么（对照原版）
-- 全部品牌与文案替换为虚构的 Circuit Office
-- 不使用原站 bundle、Prismic 内容、Mux 视频、字体、模型或纹理
-- 用 6 组程序几何替代原站 7 个私有场景阶段
-- 用 WebGLRenderTarget + 单 GLSL composite 复现核心模拟屏幕语言
-- 未加入任何统计、像素或追踪脚本
+- 恢复原站 Shader 品牌、公开标题、章节顺序与导航结构
+- 按原站逐屏重建 8 个画面：
+  1. CRT 电脑首屏
+  2. 蓝色胶片项目轮播
+  3. 无限办公室与 About Us 翻页
+  4. 米色年报 About
+  5. Still Not Convinced / 星形揭示
+  6. Golden Tie
+  7. 电话与 “Hello”
+  8. `Good buy.` 联系页
+- 5 张核心场景图为本项目重新生成并自托管，没有下载原站素材
+- 用 CSS + Canvas 模拟原站 WebGPU 后处理观感
+- 未加入分析、像素或追踪脚本
 
 ## 原站 vs 克隆站
-| 模块 | 原站表现 | 克隆实现 | 差异 / 取舍 | 证据 |
-|---|---|---|---|---|
-| 首屏 | 企业录像带加载 + 3D hero | 原创 boot + Circuit 3D hero | 品牌、构图、文字均替换 | `RECON/screenshots/` |
-| 导航 | Canvas 视觉 + 隐藏语义层 | 可见语义导航与章节 | 更直接可访问 | `index.html` |
-| 核心动效 | WebGPU/TSL FBO 多效果合成 | WebGL FBO + GLSL 单合成 | 架构同类，节点图简化 | `src/main.js` |
-| 内容区块 | 7 阶段 + 项目详情路由 | 6 个原创章节、单页 | 不克隆项目页 | `RECON/routes*/` |
-| 移动端 | 单 Canvas 响应式 | 390px 验证通过 | 文案重排，功能保留 | `RECON/screenshots/clone-390.png` |
 
-## 复刻评分
-- 源证据: 4/5
-- 结构保真: 3/5
-- 视觉保真: 3/5
-- 动效/交互: 4/5
-- 响应式: 4/5
-- 功能完整: 4/5
-- 内容替换: 5/5
-- 法务/部署风险: 4/5
-- 总评: 31/40；可公开部署的独立技术研究，不是逐像素复制品
-
-## 替换地图（要换什么改哪）
-- 文字 → `index.html`
-- 图片/媒体 → 无原始媒体；程序纹理由 `src/main.js` 生成
-- 配色 → `src/style.css` 的 `:root` 与 `src/main.js` 的 `palette`
-- 3D 场景 → `src/main.js` 的 `buildHero`…`buildContact`
+| 模块 | 原站表现 | 克隆实现 | 差异 / 取舍 |
+|---|---|---|---|
+| 首屏 | 烟雾、复古电脑、左侧大标题 | 原创 CRT 电脑资产 + 同构排版 | 电脑型号细节不同 |
+| 作品区 | WebGPU 曲面胶片 + Mux 视频 | CSS 透视胶片 + 原创项目帧 | 不分发原视频 |
+| 办公室 | 3D 重复模型 + 纸张转场 | 原创办公室资产 + CSS 翻页 | 镜头为 2.5D |
+| About | 企业年报、人物与品牌 logo | 同构年报 + 原创人物/抽象商标 | 不复制真实 logo |
+| 终章 | 星形揭示、人物视频、金领带、电话 | clip-path / CSS 干涉 + 原创场景图 | 人物不相同 |
+| 后处理 | WebGPU/TSL 多节点 | Canvas grain + CSS scanline/vignette | 实现不同、外观相近 |
 
 ## 验证
-- [x] 本地跑通、console 0 error
-- [x] 截图对照原站（RECON/screenshots/）
-- [x] 原站/克隆站路由地图
-- [x] 克隆站 interaction probe（16 actions）
-- [x] visual-diff 原始指标（方法学限制见 CLONE_REPORT）
-- [x] audit-clone 残留审计
-- 验证不了的点（如实记，别伪造）: 原站 interaction probe 因连续 `ERR_TUNNEL_CONNECTION_FAILED` 未完成；未宣称自动验证了原站滚动/拖拽
+
+- [x] `npm run build`
+- [x] 1440 / 768 / 390 三宽度浏览器测试
+- [x] 三宽度 console 0 error、page error 0
+- [x] 桌面逐屏与原站人工对照
+- [x] 项目轮播按钮与锚点导航可用
+- [x] reduced-motion 路径
+- [x] audit-clone 人工复核
+
+## 仍然不同的部分
+
+- 原站的真实 3D 模型、视频人物和项目媒体受版权保护，使用原创生成素材替代。
+- 原站的 WebGPU 曲面/镜头形变比 CSS 2.5D 更连续。
+- 项目详情路由、Prismic 内容接口和 Mux 播放器未复刻。
+
+这些差异不会改变首页的主要构图、章节、滚动节奏和整体时代质感。
