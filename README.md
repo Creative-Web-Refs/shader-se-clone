@@ -6,6 +6,8 @@ the smoky CRT-computer hero, blue filmstrip portfolio, infinite office, paper
 annual report, corporate star reveal, golden tie, telephones, and oversized
 contact finale.
 
+**Live:** [shader-se-clone.pages.dev](https://shader-se-clone.pages.dev/)
+
 ![Recreation hero](./RECON/screenshots/clone-1440.png)
 
 > This repository is an independent technical and visual study. It is not
