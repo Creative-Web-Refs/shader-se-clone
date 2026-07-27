@@ -12,6 +12,31 @@
 > 关系。上游网站明确标注“All Rights Reserved”。原站代码、美术、视频、商标、
 > 文案及其他内容的权利均归 Shader Sweden AB 及相应权利人所有。
 
+## 效果预览
+
+以下截图直接取自当前 Cloudflare Pages 生产镜像。
+
+### 桌面端首屏
+
+![Shader.se 镜像桌面端首屏，展示复古工作站、云层环境和大标题](./docs/screenshots/hero-desktop.jpg)
+
+### 项目胶片场景
+
+![Shader.se 镜像的 eHealth Arena 弯曲项目胶片场景](./docs/screenshots/project-filmstrip.jpg)
+
+### 移动端首屏
+
+<p align="center">
+  <img
+    src="./docs/screenshots/hero-mobile.jpg"
+    width="390"
+    alt="Shader.se 镜像移动端首屏，展示纵向标题和复古工作站"
+  />
+</p>
+
+桌面端截图视口为 1280×720，移动端截图视口为 390×844。三张截图均由同一生产镜像
+实时加载，未经过后期合成。
+
 ## 为什么这一版才是 1:1
 
 上一版使用原创 CSS 和生成素材重新实现了参考站。结构已经接近，但私有 3D 模型、
