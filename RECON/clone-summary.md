@@ -1,18 +1,20 @@
-# clone recon
+# 上一版 clean-room 复刻勘察摘要
 
-- URL: http://127.0.0.1:4173/
-- Title: Circuit Office — WebGL Study
-- Lang: en
-- Viewports: 1440, 768, 390
-- Framework signals: none
-- Canvas count: 1
-- Video count: 0
-- Image count: 0
-- Link count: 8
-- Console errors: 0
-- Page errors: 0
+> 这是 `clean-room-recreation` 分支的历史验证记录，不代表当前 `main` 实时镜像。
 
-## Screenshots
+- 地址：http://127.0.0.1:4173/
+- 标题：Circuit Office — WebGL Study
+- 页面语言：en
+- 测试视口：1440、768、390
+- 框架特征：无
+- Canvas 数量：1
+- Video 数量：0
+- Image 数量：0
+- 链接数量：8
+- 控制台错误：0
+- 页面错误：0
+
+## 截图
 - 1440: screenshots/clone-1440.png
 - 768: screenshots/clone-768.png
 - 390: screenshots/clone-390.png

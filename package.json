@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
+    "dev": "npm run build && wrangler pages dev dist --port 4180 --ip 127.0.0.1",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1",
+    "preview": "npm run dev",
     "deploy": "npm run build && wrangler pages deploy dist --project-name shader-se-clone"
   },
   "devDependencies": {

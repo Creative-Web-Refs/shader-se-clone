@@ -1,18 +1,18 @@
-# original recon
+# 原站勘察摘要
 
-- URL: https://www.shader.se
-- Title: Shader Development Studio
-- Lang: en
-- Viewports: 1440, 768, 390
-- Framework signals: next
-- Canvas count: 1
-- Video count: 0
-- Image count: 0
-- Link count: 9
-- Console errors: 3
-- Page errors: 19
+- 地址：https://www.shader.se
+- 标题：Shader Development Studio
+- 页面语言：en
+- 测试视口：1440、768、390
+- 框架特征：Next.js
+- Canvas 数量：1
+- Video 数量：0
+- Image 数量：0
+- 链接数量：9
+- 控制台错误：3
+- 页面错误：19
 
-## Screenshots
+## 截图
 - 1440: screenshots/original-1440.png
 - 768: screenshots/original-768.png
 - 390: screenshots/original-390.png

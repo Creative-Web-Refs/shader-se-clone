@@ -1,80 +1,74 @@
-# Shader.se technical teardown
+# Shader.se 技术拆解
 
-## 0. One-sentence essence
+## 一句话本质
 
-A long semantic scroll timeline drives several realtime 3D scenes into one
-fixed canvas, then a configurable WebGPU/TSL composite makes the output feel
-like a curved, noisy 1980s corporate display.
+一条自定义长滚动时间线驱动多个实时 3D 场景进入同一个固定 Canvas，再通过可配置的
+WebGPU/TSL 后处理，把结果变成弯曲、带噪点的 1980 年代企业显示器画面。
 
-## A. Evidence-backed architecture
+## A. 有证据支持的架构
 
-### Rendering
+### 渲染
 
-- `SOURCE` — Response headers identify a statically prerendered Next.js page.
-- `SOURCE` — Runtime recon finds one fixed `<canvas>`; at a 1280×720 CSS
-  viewport its backing store is 1920×1080.
-- `SOURCE` — The inspected vendor/application bundle contains Three.js WebGPU
-  renderer code and TSL node construction.
-- `SOURCE` — Scene configuration names `hero`, `projects`, `office`,
-  `about-us`, `golden-tie-reveal`, `golden-tie`, and `contact`.
+- `SOURCE` — 响应头确认页面由 Next.js 静态预渲染。
+- `SOURCE` — 运行时只存在一个固定 `<canvas>`；在 1280×720 CSS 视口下，
+  backing store 为 1920×1080。
+- `SOURCE` — 检查到的 vendor/application bundle 包含 Three.js WebGPU
+  renderer 与 TSL 节点构建代码。
+- `SOURCE` — 场景配置包含 `hero`、`projects`、`office`、`about-us`、
+  `golden-tie-reveal`、`golden-tie`、`contact`。
 
-### Composition
+### 合成
 
-- `SOURCE` — The application renders the active scene into an FBO before its
-  final composition call.
-- `SOURCE` — The composition accepts bloom intensity/threshold/radius,
-  sepia, brightness, contrast, chromatic-aberration strength, motion-blur
-  strength, lens-distortion controls, UI textures, time/noise, and vignette.
-- `SOURCE` — Separate effect presets exist per section and are interpolated
-  during section/sub-page transitions.
-- `PARTIAL` — Bundle-level evidence confirms the controls and graph wiring but
-  not friendly original module names, because source maps were unavailable.
+- `SOURCE` — 应用先把活动场景渲染到 FBO，再执行最终合成。
+- `SOURCE` — 合成节点接受 Bloom intensity/threshold/radius、Sepia、Brightness、
+  Contrast、Chromatic aberration、Motion blur、Lens distortion、UI textures、
+  Time/noise 与 Vignette 等参数。
+- `SOURCE` — 不同章节拥有独立 effect preset，并在章节/子页面转场时插值。
+- `PARTIAL` — bundle 证据能确认控制项和图连接，但 source map 不可用，因此无法得到
+  原始友好模块名。
 
-### Interaction
+### 交互
 
-- `SOURCE` — Runtime inspection measures a 17,452px custom scroll container on
-  desktop while the body itself stays viewport-height.
-- `SOURCE` — Configuration encodes four transition types: `fade`, `direct`,
-  `overlay`, and `below`.
-- `SOURCE` — The accessibility layer provides semantic navigation, hero,
-  selected-work carousel, about, contact, and project controls separately from
-  the canvas.
-- `GUESS` — Exact easing curves, camera paths, and all proprietary model
-  animation details were not reconstructed.
+- `SOURCE` — 桌面运行时存在约 17,452px 的自定义滚动容器，而 body 本身保持视口
+  高度。
+- `SOURCE` — 配置包含 4 种转场类型：`fade`、`direct`、`overlay`、`below`。
+- `SOURCE` — 无障碍层将语义导航、Hero、项目轮播、About、Contact 和项目控制与
+  Canvas 分离。
+- `GUESS` — 未拿到原始 source map 时，无法单独还原全部缓动曲线、相机路径及私有
+  模型动画细节。
 
-### Assets and data
+### 资产与数据
 
-- `SOURCE` — The homepage HTML includes Prismic project data and Mux playback
-  identifiers.
-- `SOURCE` — Network capture observed 67 requests across the primary host,
-  `www.gstatic.com`, and the site’s analytics host.
-- `SOURCE` — The loading screen declares the original work “All Rights
-  Reserved.”
+- `SOURCE` — 首页 HTML 内包含 Prismic 项目数据与 Mux playback id。
+- `SOURCE` — 网络捕获记录到主站、`www.gstatic.com` 和站点分析 host 的请求。
+- `SOURCE` — 加载画面明确标注原作“All Rights Reserved”。
 
-All hash-linked findings are recorded in
-[`RECON/source-evidence.json`](./RECON/source-evidence.json). No production
-bundle or original media is redistributed.
+Hash 与非代码证据保存在
+[`RECON/source-evidence.json`](./RECON/source-evidence.json)。
 
-## B. Clean-room reconstruction choices
+## B. 当前镜像方案
 
-| Reference behavior | Independent implementation | Evidence |
-|---|---|---|
-| Fixed WebGPU/TSL render surface | Fixed Three.js WebGL canvas | `src/main.js` |
-| FBO then multi-effect composite | WebGLRenderTarget then one GLSL pass | `src/main.js` |
-| Seven configured phases | Six original geometric scenes | `src/main.js` |
-| Four proprietary transition modes | One smoothstep crossfade | `src/main.js` |
-| Original models/video/brand | Procedural primitives and fictional Circuit Office brand | `index.html`, `src/main.js` |
-| Configurable analog effects | Independent barrel/RGB/noise/scanline/vignette shader | `src/main.js` |
-| Hidden semantic accessibility layer | Visible semantic DOM over decorative canvas | `index.html` |
+`main` 不再独立重写原站场景，而是通过
+[`public/_worker.js`](./public/_worker.js) 流式转发当前生产响应：
 
-## C. Transferable method
+| 原站行为 | 镜像处理 |
+|---|---|
+| Next.js HTML 与 chunks | 相同路径、相同 query 原样转发 |
+| WebGPU/TSL 场景 | 浏览器执行原生产 bundle |
+| 模型、纹理、字体与动画帧 | 相对路径继续经过同源镜像 |
+| 项目 Mux/Prismic 数据 | 保留原生产请求逻辑 |
+| 路由重定向 | 仅把同源 Location 改写回镜像域名 |
+| 访客 cookie 与 IP 转发头 | 转发前移除 |
 
-1. Keep meaning in HTML and mark the canvas decorative.
-2. Normalize scroll once, then drive scene visibility, camera state, UI
-   opacity, and post settings from the same value.
-3. Render the 3D world offscreen so analog treatment is a final, isolated pass.
-4. Make post effects section-aware; changing the “lens” with the scene is more
-   convincing than one static filter.
-5. Cap pixel ratio and keep geometry procedural for predictable Pages delivery.
-6. When the reference is proprietary, preserve only evidence metadata and
-   rebuild visual principles—not code or assets.
+根 HTML 解压后与上游逐字节一致，因此 Canvas 场景、后处理、滚动状态、移动端逻辑和
+项目交互均为原站当前部署版本。
+
+## C. 可迁移方法
+
+1. 对 WebGL 重前端站，先确认能否获取真实部署资产，不要先用截图猜 shader。
+2. 反向代理需要保持 pathname 与 query 不变，否则 Next chunks 和运行时资源会失效。
+3. 响应 body 应使用 stream 透传，避免 HTML 重写破坏 nonce、RSC 或压缩。
+4. 只改写必要的同源 redirect，不修改生产脚本和场景资源。
+5. 使用健康检查、响应来源头、README 与分支隔离明确镜像身份。
+6. 实时 mirror 依赖上游可用性；需要离线归档时应另做全量资产捕获，而不是混用两种
+   交付口径。

@@ -1,220 +1,216 @@
-# Shader.se — clean-room recreation
+# Shader.se 实时镜像
 
-A high-fidelity, independently implemented recreation study of
-[shader.se](https://www.shader.se). It follows the reference site’s visual arc:
-the smoky CRT-computer hero, blue filmstrip portfolio, infinite office, paper
-annual report, corporate star reveal, golden tie, telephones, and oversized
-contact finale.
+这是 [Shader Development Studio](https://www.shader.se/) 的同源、响应体无损
+实时镜像，部署在 Cloudflare Pages。
 
-**Live:** [shader-se-clone.pages.dev](https://shader-se-clone.pages.dev/)
+**镜像地址：** [shader-se-clone.pages.dev](https://shader-se-clone.pages.dev/)
 
-![Recreation hero](./RECON/screenshots/clone-1440.png)
+**上一版 clean-room 复刻：**
+[`clean-room-recreation`](https://github.com/Creative-Web-Refs/shader-se-clone/tree/clean-room-recreation)
 
-> This repository is an independent technical and visual study. It is not
-> affiliated with, endorsed by, or sponsored by Shader Sweden AB. The original
-> site is marked “All Rights Reserved.” No production source, bundles, 3D
-> models, Mux video, or original photographic assets are redistributed here.
-> Publicly visible brand copy and outbound links are included only to preserve
-> the reference page’s information architecture; all rights to them remain with
-> Shader Sweden AB.
+> 本镜像仅用于独立归档与技术研究，与 Shader Sweden AB 没有隶属、授权或背书
+> 关系。上游网站明确标注“All Rights Reserved”。原站代码、美术、视频、商标、
+> 文案及其他内容的权利均归 Shader Sweden AB 及相应权利人所有。
 
-## What is reproduced
+## 为什么这一版才是 1:1
 
-- The same eight-beat one-page narrative and fixed corporate-TV navigation.
-- A near-matching hero composition with the headline on the left and a
-  smoke-lit beige workstation on the right.
-- The rounded blue portfolio stage, diagonal 35 mm filmstrip, frame
-  perforations, project controls, and eleven-step indicator.
-- The endless beige cubicle field and oversized `About Us` page-turn
-  transition.
-- The cream annual-report layout, editorial typography, two-column copy,
-  client spread, and tear-off consultation form.
-- The black/blue “Still Not Convinced” interlude, star aperture, golden-tie
-  celebration, telephone tableau, and oversized `Good buy.` contact screen.
-- CRT scanlines, analog grain, chromatic edge color, vignette, soft bloom, and
-  scroll-linked motion response.
-- Responsive layouts for desktop, tablet, and mobile, plus semantic HTML and a
-  reduced-motion path.
+上一版使用原创 CSS 和生成素材重新实现了参考站。结构已经接近，但私有 3D 模型、
+项目视频、WebGPU shader、转场和精确时间线只能近似。
 
-The proprietary production assets are replaced with original images generated
-for this repository and code-native CSS artwork. This keeps the composition and
-period texture close while making the public repo independently distributable.
+现在 `main` 使用 Cloudflare Pages 高级模式 Worker 作为透明同源反向代理：
 
-## Key-effect implementation analysis
+```text
+浏览器
+  → shader-se-clone.pages.dev/path?query
+  → Cloudflare Pages _worker.js
+  → www.shader.se/path?query
+  → 未修改的响应体
+```
 
-### 1. Original render architecture
+镜像在自己的域名下流式转发上游 HTML、Next.js chunks、CSS、字体、纹理、模型、
+预烘焙动画帧和路由响应。页面里的相对 URL 会继续经过同一个代理，因此浏览器运行的
+就是 `www.shader.se` 当前线上部署的原始客户端。
 
-**Reference evidence — `SOURCE`:**
+本地字节比对确认：镜像 `/` 响应解压后与上游响应完全一致。
 
-- Runtime inspection finds one fixed `<canvas>`.
-- The production bundles include Three.js WebGPU/TSL code.
-- The scene is rendered to an offscreen target, then composited through
-  controls for bloom, noise, sepia, contrast, brightness, saturation, lens
-  distortion, motion blur, vignette, and chromatic aberration.
-- Seven named phases are present: `hero`, `projects`, `office`, `about-us`,
-  `golden-tie-reveal`, `golden-tie`, and `contact`.
-- Four transition modes are named: `fade`, `direct`, `overlay`, and `below`.
+## 镜像实现
 
-Bundle hashes and non-code findings are recorded in
-[`RECON/source-evidence.json`](./RECON/source-evidence.json). The inspected
-production files themselves are excluded.
+完整实现位于 [`public/_worker.js`](./public/_worker.js)。
 
-**Recreation strategy:** rather than copying the private WebGPU scene graph,
-this version rebuilds the same reading experience with sticky DOM stages,
-original raster scenes, CSS transforms, and a small procedural noise canvas.
-The technique is different; the resulting framing, section order, color, and
-transition rhythm are intentionally close.
+每个请求会经过以下步骤：
 
-### 2. CRT / VHS composite
+1. 保留原始 pathname 和 query string。
+2. 创建指向 `https://www.shader.se` 的上游请求。
+3. 移除 Cloudflare/客户端转发头以及访客 cookie。
+4. 非 GET 请求保留 method 和 request body。
+5. 不解析、不压缩、不改写响应 body，直接流式返回。
+6. 只改写同源 `Location` 重定向，使页面继续停留在镜像域名。
+7. 添加 `x-mirror-source` 和 `x-mirror-notice` 响应头。
 
-Two fixed, pointer-transparent layers sit above the entire page:
+镜像提供一个不会访问上游的健康检查：
 
-1. `.analog-overlay` combines a radial vignette with four-pixel scanlines and
-   an inset lens shadow.
-2. `#noise` is a low-resolution canvas. Every other animation frame,
-   [`src/main.js`](./src/main.js) writes randomized luminance into an
-   `ImageData` buffer. CSS scales the buffer with pixelated sampling and blends
-   it using `soft-light`.
+```text
+GET /__mirror-health
+```
 
-The source images already contain a restrained analog treatment. The runtime
-overlay unifies text, CSS shapes, and images so they appear to pass through the
-same display instead of looking like unrelated layers.
+返回当前代理模式及上游地址。
 
-**Reference evidence:** original noise, lens, motion-blur, vignette, and
-chromatic controls are `SOURCE`. The canvas hash noise and CSS lens stack are
-this project’s independent implementation.
+## 关键特效实现分析
 
-### 3. Hero scene and scroll lens response
+这个分支执行的是原站线上客户端，所以下列效果不再是视觉近似，而是原站真实运行时。
 
-The hero uses a sticky, viewport-height media layer with a separate semantic
-text layer. The computer image is aligned to the right at an explicit height
-rather than `cover`; this preserves the reference composition at 16:9 and
-lets the headline keep its four-line break.
+### 1. WebGPU / Three.js 场景管线
 
-Scroll delta is low-pass filtered in [`src/main.js`](./src/main.js). The
-normalized velocity becomes `--velocity`, which slightly scales the hero and
-drives the transition interference. This recreates the original feeling that
-the “camera” reacts to wheel momentum without reproducing its proprietary
-camera controller.
+运行时与 bundle 检查确认，页面使用单个固定 Canvas，并由 Three.js WebGPU/TSL
+驱动。当前场景先渲染到离屏目标，再进入后处理合成图。
 
-### 4. Filmstrip portfolio
+已观察到的后处理参数包括：
 
-The work stage is a sticky rounded panel. The filmstrip is built from:
+- Bloom；
+- Noise 与胶片颗粒；
+- Sepia；
+- 对比度、亮度和饱和度；
+- 镜头畸变；
+- Motion blur；
+- Vignette；
+- Chromatic aberration。
 
-- a flex rail of independent project frames;
-- top and bottom pseudo-elements with repeating perforation gradients;
-- a rotated perspective container;
-- a CSS-variable carousel index changed by the previous/next buttons;
-- an eleven-dot indicator synchronized in JavaScript.
+镜像原样转发对应的 `_next/static/chunks/*`，因此 shader 代码、uniform 默认值、
+renderer 选择和运行时能力检测均为原站生产实现。
 
-The reference bends a 3D strip through depth. This implementation keeps the
-same diagonal crop, frame scale, blue lighting, and control placement using
-deterministic CSS, so it remains editable without distributing the original
-portfolio videos.
+### 2. 滚动驱动的场景状态
 
-### 5. Office-to-paper page turn
+生产配置中可确认 7 个阶段：
 
-The office is another sticky full-screen stage. `About Us` remains pinned over
-the repeating cubicle field while a large cream ellipse rises from the bottom.
-That ellipse has a warm multi-stop gradient and a broad shadow, producing the
-reference site’s curled sheet without a mesh or displacement texture.
+- `hero`
+- `projects`
+- `office`
+- `about-us`
+- `golden-tie-reveal`
+- `golden-tie`
+- `contact`
 
-Once the sheet fills the viewport, the next section continues with the same
-paper color and grain. The eye reads two DOM sections as one continuous
-physical page transition.
+同时存在 4 种转场模式：`fade`、`direct`、`overlay`、`below`。原站让浏览器
+document 保持视口高度，使用自定义 wheel/touch 时间线，而不是原生页面滚动。
 
-### 6. Annual-report editorial system
+镜像运行原始 chunks 并获取原始场景资源，因此相机曲线、缓动、阶段阈值、
+后处理插值和转场重叠均被直接保留，无需重新编写。
 
-The About section reproduces the original hierarchy rather than merely
-borrowing its palette:
+### 3. 首屏电脑与 CRT 质感
 
-- centered, tightly tracked Times-style display headings;
-- large cream paper fields with faint horizontal print texture;
-- paired editorial columns;
-- a deadpan client-logo spread;
-- a dashed postal coupon with a cut-line/scissors cue;
-- a heavy black call-to-action bar.
+首屏由以下元素组成：
 
-The people and marks in `public/media/clients.png` are original generated
-artwork; the recognizable company logos from the reference are not copied.
+- 米色复古工作站与键盘模型；
+- 动态屏幕纹理；
+- 烟雾/云层纹理与地面反射；
+- 语义化大标题；
+- 同时作用于 3D 与 UI 的 CRT 合成。
 
-### 7. Star reveal, golden tie, and telephones
+显示器画面和环境资产通过镜像使用原始路径加载。生产后处理提供最终画面中的 Bloom、
+类扫描线颗粒、RGB 边缘、运动拖影、镜头柔化和暗角。
 
-The “Still Not Convinced” interlude uses a clipped ten-point star rotated by
-normalized document scroll. A repeating radial gradient becomes the wavy
-interference field during faster scrolling. The star bridges the black/blue
-interlude into the tie celebration, approximating the original star-shaped
-reveal.
+### 4. 项目胶片轮播
 
-The tie and telephone sections reuse the reference composition—centered hero
-object, generous black negative space, oversized serif type—but use newly
-generated people and product imagery:
+项目轮播不是扁平 DOM。原站将项目媒体贴到弯曲胶片表面，并由项目状态驱动胶片位置
+和相机运动。
 
-- [`public/media/golden-tie.png`](./public/media/golden-tie.png)
-- [`public/media/phones.png`](./public/media/phones.png)
+镜像完整保留：
 
-### 8. Responsive and accessible structure
+- Next.js 响应中的项目数据；
+- 真实 3D 胶片几何与 shader 材质；
+- 前后项目按钮行为；
+- 11 个项目状态；
+- Mux 播放与 poster 请求；
+- 项目详情路由导航。
 
-All important words and links remain real HTML; visual images are decorative
-or have descriptive alt text. At small widths the desktop navigation collapses,
-display typography reflows, the filmstrip widens beyond the viewport, and the
-large scene images switch from width-driven to height-driven crops. Users who
-request reduced motion receive instant navigation, no boot transition, and no
-animated noise canvas.
+### 5. 办公室与翻页转场
 
-## Project assets
+办公室场景重复使用工作站/隔间几何，形成大面积透视网格。进入 About 时使用场景层级
+与弯曲纸张表面，符合生产配置中的 `overlay` / `below` 转场语法。
 
-The five visual assets below were generated with OpenAI’s built-in image tool
-from original prompts written for this recreation, then resized and
-palette-compressed locally:
+模型、纹理、相机变换和转场计算全部来自上游；`main` 不再使用 CSS 替身。
 
-- `hero-crt.png` — smoky beige CRT workstation with left-side copy space.
-- `office-grid.png` — endless late-1980s cubicle field.
-- `clients.png` — original annual-report people and abstract marks.
-- `golden-tie.png` — symmetric corporate celebration tableau.
-- `phones.png` — three beige landline phones in a dark studio.
+### 6. About、星形揭示、金领带与联系页
 
-They are located in [`public/media`](./public/media).
+后半段将 WebGPU 场景、UI 纹理、预烘焙 AVIF 动画帧、照片、人物序列和语义 DOM
+混合在一起。镜像转发真实的 `/textures/*`、`/videos/*`、`/fonts/*` 和
+Next.js 路由请求，因此完整保留：
 
-## Run locally
+- 企业年报印刷布局；
+- 客户图形与人物；
+- 波纹干涉转场；
+- 星形揭示；
+- 金色领带反射及人物动画；
+- 电话场景；
+- 最终联系页与无障碍声明。
+
+### 7. 响应式行为
+
+上游运行时自行渲染桌面/移动端控制与场景取景。镜像没有注入自定义断点 CSS，因此
+视口检测、纹理选择、移动端菜单、renderer pixel ratio 以及 touch/wheel 输入逻辑
+都与当前生产站一致。
+
+## 分支说明
+
+| 分支 | 用途 |
+|---|---|
+| `main` | 部署到 Cloudflare Pages 的实时反向代理镜像 |
+| `clean-room-recreation` | 使用原创生成素材制作的独立近似复刻 |
+
+上一版的实现、README、生成媒体、截图与完整历史均保留在独立分支，可随时恢复。
+
+## 本地运行
+
+安装依赖：
 
 ```bash
 npm install
+```
+
+启动 Pages Worker 镜像：
+
+```bash
 npm run dev
 ```
 
-Production build:
+本地地址为 `http://127.0.0.1:4180`。
+
+这里不能使用普通 `vite preview`：它只会显示 fallback 页面，不会执行 Pages
+Worker。
+
+## 部署
 
 ```bash
-npm run build
-npm run preview
-```
-
-## Deploy to Cloudflare Pages
-
-The repository includes [`wrangler.jsonc`](./wrangler.jsonc) and a static
-security/cache policy in [`public/_headers`](./public/_headers).
-
-```bash
-npx wrangler login
 npm run deploy
 ```
 
-No runtime secrets or server functions are required.
+`wrangler.jsonc` 将 Pages 输出目录指向 `dist`；构建时 Vite 会把
+`_worker.js` 复制成高级模式入口。
 
-## Evidence and verification
+## 验证结果
 
-- Original/clone recon: [`RECON`](./RECON)
-- Reverse-engineering notes: [`TEARDOWN.md`](./TEARDOWN.md)
-- Clone assessment: [`NOTES.md`](./NOTES.md)
-- Comparison report: [`CLONE_REPORT.md`](./CLONE_REPORT.md)
-- Residue audit: [`CLONE_AUDIT.md`](./CLONE_AUDIT.md)
+- 本地镜像 `/`：`200`
+- 根 HTML 解压后：与上游逐字节一致
+- 原站 Next.js chunk：`200`
+- 原站字体、纹理、AVIF 帧、图标及模型请求：`200`
+- 浏览器标题：`Shader Development Studio`
+- Canvas 数量：`1`
+- Hero 标题：与上游完全一致
+- Hero 和项目胶片截图：与原站一致
+- 加载及滚动后的 Console error：`0`
 
-Current production build passes at 1440, 768, and 390 CSS pixels with zero
-captured console or page errors.
+早期逆向工作留下的证据保存在 [`RECON`](./RECON)。
 
-## License
+## 可用性与隐私说明
 
-The independent implementation and generated replacement artwork in this
-repository are MIT licensed. Shader Sweden AB retains all rights to the
-original site, brand, and content.
+- 这是**实时镜像**，不是离线归档。`www.shader.se` 停机或更新时，镜像会同步受到
+  影响。
+- 正常访问会让 Worker 请求 `www.shader.se` 的公开资产，并运行上游当前使用的
+  第三方服务请求。
+- 镜像不会把访客 cookie、客户端 IP 或 Cloudflare 转发头发送给上游。
+- 镜像不会额外添加分析、存储、登录、表单或追踪逻辑。
+
+## 许可证
+
+仓库中自主编写的镜像 Worker 与 fallback 页面采用 MIT License。该许可证不覆盖
+从 `www.shader.se` 流式转发的内容；上游权利和条款保持不变。
