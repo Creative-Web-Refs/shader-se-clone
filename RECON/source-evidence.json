@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-07-27T08:26:43.838Z",
-  "policy": "Metadata and findings only. The proprietary production bundles were inspected locally and are intentionally not redistributed.",
+  "capturedAt": "2026-07-27T15:05:43Z",
+  "policy": "仓库只保存元数据和结论。专有生产 bundle 仅在本地检查，不随仓库重新发布。",
   "runtime": {
     "framework": "Next.js",
     "renderSurfaceCount": 1,
@@ -9,25 +9,34 @@
     "desktopCanvasCssSize": [1280, 720],
     "scrollContainerHeight": 17452,
     "font": "STIX Two Text",
-    "licenseSignal": "The loading screen states Copyright (c) Shader Development Studio AB, 2026. All Rights Reserved."
+    "licenseSignal": "加载页标注 Copyright (c) Shader Development Studio AB, 2026. All Rights Reserved."
   },
   "sources": [
     {
       "url": "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
       "sha256": "45b6c612e64af4a598f0ac6929f6823a870465f0a20adb074d8953e0cb0b21c9",
       "evidence": [
-        "Scene ids include hero, projects, office, about-us, golden-tie-reveal, golden-tie, and contact.",
-        "Transition modes are encoded as fade, direct, overlay, and below.",
-        "Per-scene effect configuration names noise, sepia, bloom, contrast, brightness, saturation, lens distortion, motion blur, vignette, and chromatic aberration."
+        "场景 ID 包含 hero、projects、office、about-us、golden-tie-reveal、golden-tie 和 contact。",
+        "转场模式编码为 fade、direct、overlay 和 below。",
+        "每个场景的特效配置包含 noise、sepia、bloom、contrast、brightness、saturation、lens distortion、motion blur、vignette 和 chromatic aberration。"
       ]
     },
     {
       "url": "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
-      "sha256": "1fb28e9ef282f5eb5c62c3619f3c5bca3dfd701c029a046db282ffd4875ad971",
+      "sha256": "f4041b189f1a688da75719fa3c5d232acd4f13f7a684e09d58dabf0be3567678",
       "evidence": [
-        "The bundle contains Three.js WebGPU renderer code and TSL node construction.",
-        "The application renders a scene into an FBO before composing bloom, color, lens distortion, chromatic aberration, motion blur, UI textures, noise, and vignette.",
-        "Effect parameters are interpolated across loading, section, and sub-page transitions."
+        "该 bundle 包含 Three.js WebGPU renderer 与 TSL 节点构建代码。",
+        "应用先将场景渲染到 FBO，再合成 bloom、颜色、镜头畸变、色差、motion blur、UI 纹理、noise 和 vignette。",
+        "特效参数会在 loading、章节跳转和子页面转场之间进行插值。"
+      ]
+    },
+    {
+      "url": "https://www.shader.se/_next/static/chunks/09d2g3rtnbzgs.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "sha256": "33704eea99c7f10ae6e49c7743d4a52eaff13713f02b0f5d8306ec1431ec846e",
+      "evidence": [
+        "Navbar 在 Hero 与 Projects 之间跳转时使用 0.8 秒 cubic-bezier Lenis 滚动。",
+        "其他章节跳转会让 sectionTransition 动画运行 1.25 秒，离屏渲染目标场景，再把 Lenis 移动到目标滚动位置。",
+        "转场期间使用目标页面 preset 中的章节镜头畸变参数。"
       ]
     }
   ]

@@ -46,24 +46,42 @@ WebGPU/TSL 后处理，把结果变成弯曲、带噪点的 1980 年代企业显
 Hash 与非代码证据保存在
 [`RECON/source-evidence.json`](./RECON/source-evidence.json)。
 
-## B. 当前镜像方案
+## B. 可读时间代码
+
+为避免在 2MB 以上的混淆 bundle 中来回搜索，关键时间代码已经重命名并拆分：
+
+- [`docs/effects/scene-presets.js`](./docs/effects/scene-presets.js)：7 个章节的滚动长度、
+  视觉转场和 effect preset。
+- [`docs/effects/timeline-runtime.js`](./docs/effects/timeline-runtime.js)：`scrollPx /
+viewportHeight`、`range` / `renderRange`、每帧活动场景与 1.25 秒 Navbar 跳转。
+- [`docs/effects/effect-timeline.js`](./docs/effects/effect-timeline.js)：
+  `effectTransitionLength`、`effectOffset`、smoothstep 权重和四层参数插值。
+- [`docs/effects/post-processing-time.js`](./docs/effects/post-processing-time.js)：真实秒
+  Clock、Noise phase、Bloom 正弦呼吸、以 120Hz 为基准的 Motion Blur 帧率补偿。
+
+这些文件是有真源码证据支持的语义化阅读版，不是原始未混淆源码。生产 URL、SHA-256
+和 Prettier 行号位于
+[`docs/effects/source-map.json`](./docs/effects/source-map.json)。运行
+`npm run extract:sources` 可将当前线上三个核心 chunk 下载并格式化到本地 `.cache/`。
+
+## C. 当前镜像方案
 
 `main` 不再独立重写原站场景，而是通过
 [`public/_worker.js`](./public/_worker.js) 流式转发当前生产响应：
 
-| 原站行为 | 镜像处理 |
-|---|---|
-| Next.js HTML 与 chunks | 相同路径、相同 query 原样转发 |
-| WebGPU/TSL 场景 | 浏览器执行原生产 bundle |
-| 模型、纹理、字体与动画帧 | 相对路径继续经过同源镜像 |
-| 项目 Mux/Prismic 数据 | 保留原生产请求逻辑 |
-| 路由重定向 | 仅把同源 Location 改写回镜像域名 |
-| 访客 cookie 与 IP 转发头 | 转发前移除 |
+| 原站行为                 | 镜像处理                         |
+| ------------------------ | -------------------------------- |
+| Next.js HTML 与 chunks   | 相同路径、相同 query 原样转发    |
+| WebGPU/TSL 场景          | 浏览器执行原生产 bundle          |
+| 模型、纹理、字体与动画帧 | 相对路径继续经过同源镜像         |
+| 项目 Mux/Prismic 数据    | 保留原生产请求逻辑               |
+| 路由重定向               | 仅把同源 Location 改写回镜像域名 |
+| 访客 cookie 与 IP 转发头 | 转发前移除                       |
 
 根 HTML 解压后与上游逐字节一致，因此 Canvas 场景、后处理、滚动状态、移动端逻辑和
 项目交互均为原站当前部署版本。
 
-## C. 可迁移方法
+## D. 可迁移方法
 
 1. 对 WebGL 重前端站，先确认能否获取真实部署资产，不要先用截图猜 shader。
 2. 反向代理需要保持 pathname 与 query 不变，否则 Next chunks 和运行时资源会失效。

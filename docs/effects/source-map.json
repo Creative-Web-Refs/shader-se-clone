@@ -1,0 +1,64 @@
+{
+  "capturedAt": "2026-07-27T15:05:43Z",
+  "origin": "https://www.shader.se",
+  "prettierVersion": "3.6.2",
+  "notice": "完整生产 bundle 不进入仓库；运行 npm run extract:sources 可在本地重新生成。",
+  "sources": [
+    {
+      "id": "scene-config",
+      "url": "https://www.shader.se/_next/static/chunks/003qcun9_z40b.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "sha256": "45b6c612e64af4a598f0ac6929f6823a870465f0a20adb074d8953e0cb0b21c9",
+      "prettyLines": {
+        "pageConfigs": "26568-26781",
+        "transitionTypeMap": "26904-26906",
+        "buildPageTimeline": "26911-26929",
+        "pageStoreAndTransitions": "26931-27055"
+      }
+    },
+    {
+      "id": "render-pipeline",
+      "url": "https://www.shader.se/_next/static/chunks/0nr6lqdt2xw72.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "sha256": "f4041b189f1a688da75719fa3c5d232acd4f13f7a684e09d58dabf0be3567678",
+      "prettyLines": {
+        "scrollPixelsToTimeline": "2136-2263",
+        "motionBlurHistory": "73859-74068",
+        "noiseAndBloomTime": "74096-74219",
+        "effectWeights": "74468-74489",
+        "effectLayerBlending": "74508-74650",
+        "composeUniformUpload": "74671-74714",
+        "pageTextureTransitions": "74784-74921",
+        "mainFrameCoordinator": "116095-116299"
+      }
+    },
+    {
+      "id": "section-navigation",
+      "url": "https://www.shader.se/_next/static/chunks/09d2g3rtnbzgs.js?dpl=dpl_7zBfSoUTJP474MZeo1QBxkHKryUu",
+      "sha256": "33704eea99c7f10ae6e49c7743d4a52eaff13713f02b0f5d8306ec1431ec846e",
+      "prettyLines": {
+        "navbarSectionTransition": "5126-5257"
+      }
+    }
+  ],
+  "semanticFiles": {
+    "scene-presets.js": [
+      "scene-config:pageConfigs",
+      "scene-config:transitionTypeMap"
+    ],
+    "timeline-runtime.js": [
+      "scene-config:buildPageTimeline",
+      "render-pipeline:scrollPixelsToTimeline",
+      "render-pipeline:mainFrameCoordinator",
+      "render-pipeline:pageTextureTransitions",
+      "section-navigation:navbarSectionTransition"
+    ],
+    "effect-timeline.js": [
+      "render-pipeline:effectWeights",
+      "render-pipeline:effectLayerBlending"
+    ],
+    "post-processing-time.js": [
+      "render-pipeline:motionBlurHistory",
+      "render-pipeline:noiseAndBloomTime",
+      "render-pipeline:composeUniformUpload"
+    ]
+  }
+}

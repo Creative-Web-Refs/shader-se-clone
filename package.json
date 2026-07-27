@@ -7,10 +7,12 @@
     "dev": "npm run build && wrangler pages dev dist --port 4180 --ip 127.0.0.1",
     "build": "vite build",
     "preview": "npm run dev",
+    "extract:sources": "node scripts/extract-readable-sources.mjs",
     "deploy": "npm run build && wrangler pages deploy dist --project-name shader-se-clone"
   },
   "devDependencies": {
     "playwright": "^1.54.2",
+    "prettier": "3.6.2",
     "vite": "^7.0.6",
     "wrangler": "^4.114.0"
   }

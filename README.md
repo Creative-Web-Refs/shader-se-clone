@@ -37,6 +37,31 @@
 桌面端截图视口为 1280×720，移动端截图视口为 390×844。三张截图均由同一生产镜像
 实时加载，未经过后期合成。
 
+## 核心时间代码阅读版
+
+生产 bundle 已按功能重新命名、格式化并拆成四个便于阅读的文件：
+
+| 文件                                                                | 内容                                                   |
+| ------------------------------------------------------------------- | ------------------------------------------------------ |
+| [`scene-presets.js`](./docs/effects/scene-presets.js)               | 七个章节的长度、转场类型和完整后处理参数               |
+| [`timeline-runtime.js`](./docs/effects/timeline-runtime.js)         | 滚动像素转时间轴、活动页面/场景选择、Navbar 章节跳转   |
+| [`effect-timeline.js`](./docs/effects/effect-timeline.js)           | 特效权重、smoothstep、Loading/Subpage/Section 四层插值 |
+| [`post-processing-time.js`](./docs/effects/post-processing-time.js) | Clock、Noise 相位、Bloom 呼吸和帧率补偿 Motion Blur    |
+
+从 [`核心时间代码阅读指南`](./docs/effects/README.md) 开始阅读。每段都标明
+`SOURCE` / `PARTIAL` / `GUESS`，并由
+[`source-map.json`](./docs/effects/source-map.json) 记录生产 chunk 的 URL、SHA-256 和
+格式化行号。
+
+如需在本地查看完整格式化生产代码：
+
+```bash
+npm run extract:sources
+```
+
+结果写入被 Git 忽略的 `.cache/shader-readable/`。仓库只保存语义化阅读版，不直接
+发布整份专有 bundle。
+
 ## 为什么这一版才是 1:1
 
 上一版使用原创 CSS 和生成素材重新实现了参考站。结构已经接近，但私有 3D 模型、
@@ -177,10 +202,10 @@ Next.js 路由请求，因此完整保留：
 
 ## 分支说明
 
-| 分支 | 用途 |
-|---|---|
-| `main` | 部署到 Cloudflare Pages 的实时反向代理镜像 |
-| `clean-room-recreation` | 使用原创生成素材制作的独立近似复刻 |
+| 分支                    | 用途                                       |
+| ----------------------- | ------------------------------------------ |
+| `main`                  | 部署到 Cloudflare Pages 的实时反向代理镜像 |
+| `clean-room-recreation` | 使用原创生成素材制作的独立近似复刻         |
 
 上一版的实现、README、生成媒体、截图与完整历史均保留在独立分支，可随时恢复。
 
