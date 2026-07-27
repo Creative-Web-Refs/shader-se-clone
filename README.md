@@ -1,4 +1,4 @@
-# Shader.se 实时镜像
+# Shader.se 实时镜像与 WebGPU 实现分析
 
 这是 [Shader Development Studio](https://www.shader.se/) 的同源、响应体无损
 实时镜像，部署在 Cloudflare Pages。
@@ -11,6 +11,37 @@
 > 本镜像仅用于独立归档与技术研究，与 Shader Sweden AB 没有隶属、授权或背书
 > 关系。上游网站明确标注“All Rights Reserved”。原站代码、美术、视频、商标、
 > 文案及其他内容的权利均归 Shader Sweden AB 及相应权利人所有。
+
+## 项目概览
+
+这个仓库同时包含两个层次，阅读时需要区分：
+
+| 层次 | 仓库拥有的代码 | 实际职责 |
+| --- | --- | --- |
+| 镜像层 | Pages Worker、Vite fallback、提取脚本 | 把固定上游 `www.shader.se` 代理到 Pages 域名 |
+| 页面层 | 上游当前生产 HTML、Next.js chunks 和媒体 | WebGPU 场景、时间轴、DOM 内容与真实交互 |
+
+镜像层的技术栈很小：
+
+- Cloudflare Pages 高级模式 `_worker.js`；
+- Vite 7，用于复制 Worker 和构建静态 fallback；
+- Wrangler 4，用于本地 Pages runtime 和部署；
+- Node.js 提取脚本与 Prettier；
+- Playwright，用于截图和浏览器验证。
+
+页面层则由上游当前部署决定。现有生产代码可确认 Next.js、React、Three.js WebGPU /
+TSL、Zustand、Motion、Mux 和自定义滚动时间线，但这些依赖并不安装在本仓库中。
+
+```mermaid
+flowchart LR
+    A["浏览器请求"] --> B["Cloudflare Pages Worker"]
+    B --> C["固定上游 www.shader.se"]
+    C --> D["Next.js HTML / RSC / chunks"]
+    C --> E["纹理 / 模型 / 字体 / 视频"]
+    D --> F["单 Canvas WebGPU 场景"]
+    E --> F
+    G["Vite 静态 fallback"] -. "不经过正常代理响应" .-> B
+```
 
 ## 效果预览
 
@@ -104,6 +135,34 @@ GET /__mirror-health
 ```
 
 返回当前代理模式及上游地址。
+
+### 响应语义
+
+“响应体无损”指 Worker 不主动解析或改写 `originResponse.body`。它不代表整个 HTTP
+响应逐字节相同：
+
+- `Location` 在跳回 `https://www.shader.se` 时会改写为镜像 origin；
+- 增加 `x-mirror-source` 与 `x-mirror-notice`；
+- Cloudflare / 浏览器仍可能协商 gzip、缓存和传输层协议；
+- 正文校验应在双方解压后进行。
+
+正常流量全部由 `_worker.js` 处理。`index.html` 的 `noindex` 静态 fallback 不会在
+上游正常或异常时自动出现：前者返回上游响应，后者返回 Worker 自己生成的纯文本
+502。因此不能依靠 fallback 的 `<meta name="robots">` 阻止代理页面被索引。
+
+### 请求与信任边界
+
+代理目标由代码固定，不是可指定任意目标的开放代理，但它会把请求交给一个外部系统：
+
+- 删除 `cookie`、访客 IP 和常见 Cloudflare / `x-forwarded-*` 头；
+- 保留路径、query、method，以及非 GET / HEAD 的 request body；
+- 没有主动删除 `authorization`、`origin`、Cloudflare Access JWT 等其他敏感头；
+- 没有限制允许的方法，也没有为 API / 表单路径建立 allowlist；
+- 上游返回的 CSP、缓存、`Set-Cookie` 和 CORS 等头默认继续传给浏览器。
+
+所以当前实现适合公开内容研究，不应直接放在带内部认证头的 Access 网关后，也不适合
+把上游写操作当成安全隔离环境。若要强化，可只允许 GET / HEAD，并改用明确的
+request / response header allowlist。
 
 ## 关键特效实现分析
 
@@ -251,6 +310,18 @@ npm run deploy
 
 早期逆向工作留下的证据保存在 [`RECON`](./RECON)。
 
+### 2026-07-28 复核
+
+- 原站首页发现 14 个生产 JavaScript chunks；
+- `scene-config`、`render-pipeline`、`section-navigation` 三个目标均重新定位成功；
+- 三个当前 chunk 的 URL 与 SHA-256 均和 `docs/effects/source-map.json` 一致；
+- 原站与 Pages 首页解压后的 SHA-256 均为
+  `e2c9762e7df7e764c7fadd080142bdee9ac70ed32c16fc1d1d0e33c456de6697`；
+- Pages 返回 `x-mirror-source: https://www.shader.se` 和镜像权利提示；
+- `/__mirror-health` 返回 `ok: true`、`mode: live-reverse-proxy`；
+- Worker、提取脚本和四份语义化时间代码均通过 `node --check`；
+- `npm run build` 由 Vite 7.3.6 成功完成。
+
 ## 可用性与隐私说明
 
 - 这是**实时镜像**，不是离线归档。`www.shader.se` 停机或更新时，镜像会同步受到
@@ -258,6 +329,8 @@ npm run deploy
 - 正常访问会让 Worker 请求 `www.shader.se` 的公开资产，并运行上游当前使用的
   第三方服务请求。
 - 镜像不会把访客 cookie、客户端 IP 或 Cloudflare 转发头发送给上游。
+- 镜像仍可能转发未列入删除清单的其他请求头；不要把“删除 cookie”理解成完整的认证
+  隔离。
 - 镜像不会额外添加分析、存储、登录、表单或追踪逻辑。
 
 ## 许可证
